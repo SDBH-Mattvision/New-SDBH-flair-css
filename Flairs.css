@@ -1277,7 +1277,7 @@ a[href$="/user/lord_nougat"]:not(.upvoatsGiven)::after {
     content: '';
     display: inline-block;
     background-image: url(https://i.sli.mg/adGPwP.jpg);
-    background-size: 100%;
+    background-size: 50%;
     border-radius: 5px ;
     width: 47px;
     height: 70px;
