@@ -1378,7 +1378,7 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/iBottomOutMidgets"]:not(.upvoatsGiven)::after,
+
 a[href$="/user/ibottomoutmidgets"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
