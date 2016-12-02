@@ -1,0 +1,1268 @@
+a[href$="/user/jobes"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/jobes"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/lmtSL2.png);
+border-radius: 2px;
+background-size: 100%;
+width: 35px;
+height: 53px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/mamwad"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/mamwad"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/pJcg4Gl.png);
+background-size: 100%;
+border-radius: 7px ;
+width: 70px;
+height: 31px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/mattvision"]:not(.upvoatsGiven),
+a[href$="/user/Mattvision"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/mattvision"]:not(.upvoatsGiven)::before,
+a[href$="/user/Mattvision"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/ouffDYq.gif);
+border-radius: 0px;
+background-size: 100%;
+width: 40px;
+height: 26px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/singingoncloudnine"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/singingoncloudnine"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/YjxS7zz.png);
+background-size: 100%;
+width: 36px;
+height: 26px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/mikehawksragen"]:not(.upvoatsGiven),
+a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/mikehawksragen"]:not(.upvoatsGiven)::after,
+a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/n8C0zeD.gif);
+border-radius: 5px;
+background-size: 100%;
+width: 55px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/g4"]:not(.upvoatsGiven), 
+a[href$="/user/G4"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/g4"]:not(.upvoatsGiven)::after,
+a[href$="/user/G4"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/Mqmvt3f.png?1);
+border-radius: 2px;
+background-size: 100%;
+width: 35px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/weejobbie"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/weejobbie"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/Cuo13Vb.png);
+border-radius: 2px;
+background-size: 100%;
+width: 22px;
+height: 30px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/nihilistslivesmatter"]:not(.upvoatsGiven),
+a[href$="/user/NihilistsLivesMatter"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/nihilistslivesmatter"]:not(.upvoatsGiven)::after,
+a[href$="/user/NihilistsLivesMatter"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/ghRi3MI.jpg?2);
+background-size: 100%;
+border-radius: 0px ;
+width: 25px;
+height: 28px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;;
+}
+
+a[href$="/user/toats"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/toats"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/aUiH1Hl.png);
+background-size: 100%;
+width: 30px;
+height: 30px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/6double5321"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/6double5321"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/6lo3skG.jpg);
+border-radius: 0px;
+background-size: 100%;
+width: 120px;
+height: 25px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/illpoet"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/illpoet"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/OAlxKDd.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 43px;
+height: 30px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/kevdude"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/kevdude"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/xcFN1dE.png);
+border-radius: 10px;
+background-size: 100%;
+width: 40px;
+height: 50px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/lackscompassion"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/lackscompassion"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/G0ri7H1.png);
+background-size: 100%;
+border-radius: 0px ;
+width: 190px;
+height: 39px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/farmer-"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/farmer-"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/0NP40pE.jpg?1);
+background-size: 100%;
+border-radius: 10px;
+width: 45px;
+height: 63px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/dallasmuseum"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/dallasmuseum"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/K7WKDlx.gif);
+background-size: 100%;
+border-radius: 10px;
+width: 35px;
+height: 25px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/NoahWard"]:not(.upvoatsGiven),
+a[href$="/user/noahward"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/NoahWard"]:not(.upvoatsGiven)::after,
+a[href$="/user/noahward"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/qelZsOc.gif);
+border-radius: 10px;
+background-size: 100%;
+width: 75px;
+height: 45px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/oddjob"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/oddjob"]:not(.upvoatsGiven)::after {
+visibility: visible;
+background-image: url(https://i.imgur.com/eqZp3HS.png);
+content: '';
+display: inline-block;
+border-radius: 2px;
+background-size: 100%;
+width: 35px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/squataclops"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/squataclops"]:not(.upvoatsGiven)::after {
+visibility: visible;
+background-image: url(https://i.imgur.com/XfQXDcA.png);
+content: '';
+display: inline-block;
+border-radius: 2px;
+background-size: 100%;
+width: 40px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Jambo"]:not(.upvoatsGiven),
+a[href$="/user/jambo"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Jambo"]:not(.upvoatsGiven)::after,
+a[href$="/user/jambo"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/GpAfCqH.png);
+border-radius: 2px;
+background-size: 100%;
+width: 32px;
+height: 45px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href=$"/user/Typo"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Typo"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/Ht4aknr.png);
+border-radius: 10px;
+background-size: 100%;
+width: 50px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/9-11"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/9-11"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/t1Un6mn.png);
+border-radius: 2px;
+background-size: 100%;
+width: 35px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/By_The_Water"]:not(.upvoatsGiven),
+a[href$="/user/by_the_water"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/By_The_Water"]:not(.upvoatsGiven)::after,
+a[href$="/user/by_the_water"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/YJA7iEt.png);
+border-radius: 50px;
+background-size: 100%;
+width: 50px;
+height: 50px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Mercuenomia"]:not(.upvoatsGiven),
+a[href$="/user/mercuenomia"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Mercuenomia"]:not(.upvoatsGiven)::after,
+a[href$="/user/mercuenomia"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/1DyoLqG.jpg?1);
+background-size: 100%;
+border-radius: 0px ;
+width: 40px;
+height: 40px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+.author[href$="/Mercuenomia"]:not(.upvoatsGiven)::before,
+.author[href$="/mercuenomia"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: "F.A.G.";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 15px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
+a[href$="/user/Link1299"]:not(.upvoatsGiven),
+a[href$="/user/link1299"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Link1299"]:not(.upvoatsGiven)::after,
+a[href$="/user/link1299"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/W0rCS9r.png);
+background-size: 100%;
+border-radius: 0px ;
+width: 67px;
+height: 40px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/moliver"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/moliver"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/toaoDoZ.png);
+background-size: 100%;
+border-radius: 0px ;
+width: 65px;
+height: 55px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/pembo210"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/pembo210"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/FrqJpJp.gif);
+background-size: 100%;
+border-radius: 10px ;
+width: 30px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/techius"]:not(.upvoatsGiven),
+a[href$="/user/Techius"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Techius"]:not(.upvoatsGiven)::after,
+a[href$="/user/techius"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/8i9LVqB.png) !important;
+background-size: 100%;
+border-radius: 30px ;
+width: 75px;
+height: 75px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Techius"]:not(.upvoatsGiven):hover::after,
+a[href$="/user/techius"]:not(.upvoatsGiven):hover::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/8T5fy4g.png) !important;
+background-size: 100%;
+border-radius: 50px ;
+width: 75px;
+height: 75px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Failure"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Failure"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/xqUMqLn.gif);
+background-size: 100%;
+border-radius: 0px ;
+width: 35px;
+height: 35px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/pornhub_katie"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/pornhub_katie"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/KuDjvqo.gif);
+background-size: 100%;
+border-radius: 10px ;
+width: 35px;
+height: 20px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/littlett"]:not(.upvoatsGiven),
+a[href$="/user/littleTT"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/littlett"]:not(.upvoatsGiven)::before,
+a[href$="/user/littleTT"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/xSLmTGn.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 40px;
+height: 40px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/penguincheerleader"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/penguincheerleader"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/XGoV26M.png);
+border-radius: 5px;
+background-size: 100%;
+width: 30px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+.author[href$="/penguincheerleader"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: " Janet Garrison ";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
+a[href$="/user/Crensch"]:(.upvoatsGiven)::after {
+background: #fff;
+border: 0px solid;
+border-radius: 0px;
+color: #000;
+content: " Concerned Douchebag ";
+display: inline-block;
+font-family: inherit;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 15px;
+margin-right: 3px;
+margin-left: 3px;
+overflow: hidden;
+padding: 2px;
+text-align: center;
+white-space: nowrap;
+box-sizing: border-box;
+vertical-align: middle;
+}
+
+a[href$="/user/Jesuspiece"]:not(.upvoatsGiven),
+a[href$="/user/jesuspiece"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Jesuspiece"]:not(.upvoatsGiven)::after,
+a[href$="/user/jesuspiece"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/NoY4UWZ.jpg);
+background-size: 100%;
+width: 55px;
+height: 50px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/humblebumble"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/humblebumble"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/FfXlOr6.png);
+border-radius: 10px;
+background-size: 100%;
+width: 40px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/PntBtr"]:not(.upvoatsGiven),
+a[href$="/user/pntbtr"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/PntBtr"]:not(.upvoatsGiven)::before,
+a[href$="/user/pntbtr"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/Q3lBwHA.jpg);
+border-radius: 5px;
+background-size: 100%;
+width: 70px;
+height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/highly_paid_orgy_pro"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/highly_paid_orgy_pro"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/g4PBSUr.png);
+border-radius: 5px;
+background-size: 100%;
+width: 90px;
+height: 32px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/itazuka"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/itazuka"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: "Fucking hippie";
+word-spacing: normal;
+letter-spacing: normal;
+font-size: 15px;
+ background-size: 100% 100% !important;
+position: absolute;
+background-image: url(https://i.imgur.com/pl72jm4.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+color: #000;
+border: hidden;
+border-radius: 10px;
+}
+
+a[href$="/user/itazuka"]:not(.upvoatsGiven):hover::before {
+visibility: visible;
+content: "";
+display: inline-block;
+background-image: url(https://i.imgur.com/ynrYrhx.png);
+border-radius: 2px;
+background-size: 100% 100%;
+width: 75px;
+height: 60px;
+vertical-align:top;
+margin-right: .3em;
+border: hidden;
+font-size: 15px !important;
+}
+
+a[href$="/user/redditbelowsme"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/redditbelowsme"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/ANlStML.png);
+border-radius: 2px;
+background-size: 100%;
+width: 75px;
+height: 59px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/aGameCalledCountries"]:not(.upvoatsGiven),
+a[href$="/user/agamecalledcountries"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/aGameCalledCountries"]:not(.upvoatsGiven)::before,
+a[href$="/user/agamecalledcountries"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: " Ted Cruz ";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
+a[href$="/user/aGameCalledCountries"]:not(.upvoatsGiven)::after,
+a[href$="/user/agamecalledcountries"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/1eyDme4.jpg);
+border-radius: 5px;
+background-size: 100%;
+width: 118px;
+height: 65px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/DrWizzle"]:not(.upvoatsGiven),
+a[href$="/user/drwizzle"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/DrWizzle"]:not(.upvoatsGiven)::after,
+a[href$="/user/drwizzle"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/s9etUrj.gif);
+border-radius: 3px;
+background-size: 100%;
+width: 90px;
+height:70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/ninjajunkie"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/ninjajunkie"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/XcuFJYd.png);
+border-radius: 2px;
+background-size: 100%;
+width: 65px;
+height: 41px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/dorven"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/dorven"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/eFVltyb.jpg?1);
+border-radius: 2px;
+background-size: 100%;
+width: 58px;
+height: 51px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/boukert"]:not(.upvoatsGiven),
+a[href$="/user/Boukert"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/boukert"]:not(upvoatsGiven)::after,
+a[href$="/user/Boukert"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/GWusqtp.png);
+border-radius: 5px;
+background-size: 100%;
+width: 100px;
+height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven),
+a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::before,
+a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: " SRS ";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven)::after,
+a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/AQZO2Um.png);
+background-size: 100%;
+border-radius: 0px ;
+width: 90px;
+height: 88px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Zaebos_11"]:not(.upvoatsGiven),
+a[href$="/user/zaebos_11"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Zaebos_11"]:not(.upvoatsGiven)::after,
+a[href$="/user/zaebos_11"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/hzS7c2F.png);
+border-radius: 30px;
+background-size: 100%;
+width: 70px;
+height: 65px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Alybad"]:not(.upvoatsGiven),
+a[href$="/user/alybad"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Alybad"]:not(.upvoatsGiven)::after,
+a[href$="/user/alybad"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/q8K8kGa.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 63px;
+height: 80px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/weebo"]:not(.upvoatsGiven),
+a[href$="/user/Weebo"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/weebo"]:not(.upvoatsGiven)::after,
+a[href$="/user/Weebo"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/3x7ykzd.png);
+border-radius: 2px;
+background-size: 100%;
+width: 20px;
+height: 46px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/plankO"]:not(.upvoatsGiven) {
+      visibility: hidden;
+      word-spacing: -999px;
+      letter-spacing: -999px;
+}
+
+a[href$="/user/plankO"]:not(.upvoatsGiven)::after {
+    visibility: visible;
+    content: '';
+    display: inline-block;
+    background-image: url(https://i.imgur.com/xUYqjW0.jpg?1);
+    background-size: 100%;
+    border-radius: 5px ;
+    width: 90px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: .3em;
+    border: hidden;
+}
+
+a[href$="/user/coopzy"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/coopzy"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: " Michael H. Kenyon ";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+a[href$="/user/coopzy"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/N7HXAVe.png);
+background-size: 100%;
+border-radius: 0px ;
+width: 50px;
+height: 68px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+a[href$="/user/DrWizzle"]:not(.upvoatsGiven),
+a[href$="/user/drwizzle"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/DrWizzle"]:not(.upvoatsGiven)::after,
+a[href$="/user/drwizzle"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/ceZqJPp.jpg);
+border-radius: 3px;
+background-size: 100%;
+width: 90px;
+height:70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+a[href$="/user/coinphrase"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+a[href$="/user/coinphrase"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: " The Neuralizer ";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
+a[href$="/user/coinphrase"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/x3SNu77.jpg?1);
+background-size: 100%;
+border-radius: 10px ;
+width: 70px;
+height: 86px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/skymod"]:not(.upvoatsGiven) {
+      visibility: hidden;
+      word-spacing: -999px;
+      letter-spacing: -999px;
+}
+
+a[href$="/user/skymod"]:not(.upvoatsGiven)::after {
+    visibility: visible;
+    content: '';
+    display: inline-block;
+    background-image: url(https://i.imgur.com/kqrqucr.jpg?1);
+    background-size: 100%;
+    border-radius: 5px ;
+    width: 68px;
+    height: 46px;
+    vertical-align: middle;
+    margin-right: .3em;
+    border: hidden;
+}
+
+a[href$="/user/The1ronSheik"]:not(.upvoatsGiven) {
+      visibility: hidden;
+      word-spacing: -999px;
+      letter-spacing: -999px;
+}
+
+a[href$="/user/The1ronSheik"]:not(.upvoatsGiven)::after {
+    visibility: visible;
+    content: '';
+    display: inline-block;
+    background-image: url(https://i.imgur.com/ZieKpCL.png);
+    background-size: 100%;
+    border-radius: 5px ;
+    width: 70px;
+    height: 105px;
+    vertical-align: middle;
+    margin-right: .3em;
+    border: hidden;
+}
+
+a[href$="/user/Schlomodude"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/OkbQ3Fw.png?1);
+border-radius: 2px;
+background-size: 100%;
+width: 75px;
+height: 57px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Schlomodude"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Mick"]:not(.upvoatsGiven),
+a[href$="/user/mick"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+
+a[href$="/user/Mick"]:not(.upvoatsGiven)::after,
+a[href$="/user/mick"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/coZl6yn.gif);
+border-radius: 10px;
+background-size: 100%;
+width: 70px;
+height: 50px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+a[href$="/user/moshi"]:not(.upvoatsGiven) {
+      visibility: hidden;
+      word-spacing: -999px;
+      letter-spacing: -999px;
+}
+
+a[href$="/user/moshi"]:not(.upvoatsGiven)::after {
+    visibility: visible;
+    content: '';
+    display: inline-block;
+    background-image: url(https://i.imgur.com/XGtjqlf.png);
+    background-size: 100%;
+    border-radius: 5px ;
+    width: 47px;
+    height: 70px;
+    vertical-align: middle;
+    margin-right: .3em;
+    border: hidden;
+}
