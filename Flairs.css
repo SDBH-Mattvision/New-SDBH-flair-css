@@ -1287,25 +1287,7 @@ a[href$="/user/dynamiteVacancy"]:not(.upvoatsGiven)::after {
     border: hidden;
 }
 
-a[href$="/user/lord_nougat"]:not(.upvoatsGiven) {
-      visibility: hidden;
-      word-spacing: -999px;
-      letter-spacing: -999px;
-}
 
-a[href$="/user/lord_nougat"]:not(.upvoatsGiven)::after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(https://i.sli.mg/51U4Rk.jpg);
-    background-size: 100%;
-    border-radius: 5px ;
-    width: 100px;
-    height: 56px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
-}
 
 a[href$="/user/tofat2fish"]:not(.upvoatsGiven),
 a[href$="/user/ToFat2Fish"]:not(.upvoatsGiven) {
@@ -1378,7 +1360,7 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-
+a[href$="/user/iBottomOutMidgets"]:not(.upvoatsGiven)::after,
 a[href$="/user/ibottomoutmidgets"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
