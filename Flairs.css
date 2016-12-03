@@ -1437,3 +1437,22 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: -47px 0px;
 }
+a[href$="/user/engrish_is_hard"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/engrish_is_hard"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/XGoV26M.png);
+border-radius: 5px;
+background-size: 100%;
+width: 30px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
