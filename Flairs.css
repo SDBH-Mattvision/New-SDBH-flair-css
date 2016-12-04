@@ -244,6 +244,19 @@ margin-right: .3em;
 border: hidden;
 }
 
+.author[href$="/kevdude"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: " I <3 Nickelback! ";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
 a[href$="/user/lackscompassion"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
