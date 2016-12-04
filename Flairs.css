@@ -1469,3 +1469,47 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/RumpRangerRick"]:not(.upvoatsGiven),
+a[href$="/user/RumpRangerRick"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/RumpRangerRick"]:not(.upvoatsGiven)::after,
+a[href$="/user/RumpRangerRick"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/5WX7O1.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 80px;
+height: 90px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/BigFatDaddy"]:not(.upvoatsGiven),
+a[href$="/user/BigFatDaddy"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/BigFatDaddy"]:not(.upvoatsGiven)::after,
+a[href$="/user/BigFatDaddy"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/5WX7O1.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 100px;
+height: 100px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
