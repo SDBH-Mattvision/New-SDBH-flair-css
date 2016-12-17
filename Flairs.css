@@ -1815,3 +1815,25 @@ background: transparent;
 color: #3399CC;
 border-style: hidden;
 }
+
+a[href$="/user/Ina_Pickle"]:not(.upvoatsGiven),
+a[href$="/user/ina_Pickle"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Ina_Pickle"]:not(upvoatsGiven)::after,
+a[href$="/user/ina_Pickle"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/e0L6io.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 40px;
+height: 85px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
