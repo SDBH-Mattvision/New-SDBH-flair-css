@@ -1757,3 +1757,61 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/Kemiri"]:not(.upvoatsGiven),
+a[href$="/user/kemiri"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Kemiri"]:not(upvoatsGiven)::after,
+a[href$="/user/kemiri"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/Znu5Vr.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 109px;
+height: 47px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/islamicStatePatriot"]:not(.upvoatsGiven),
+a[href$="/user/IslamicStatePatriot"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/IslamicStatePatriot"]:not(upvoatsGiven)::after,
+a[href$="/user/islamicStatePatriot"]:not(upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/BTjOl4o.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 46px;
+height: 33px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+.author[href$="/IslamicStatePatriot"]:not(.upvoatsGiven)::before,
+.author[href$="/islamicStatePatriot"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: "HAIL ISIS";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 12px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
