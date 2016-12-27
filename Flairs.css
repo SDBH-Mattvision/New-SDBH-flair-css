@@ -719,7 +719,7 @@ letter-spacing: -999px;
 a[href$="/user/Pembo210"]:not(.upvoatsGiven)::after,
 a[href$="/user/pembo210"]:not(.upvoatsGiven)::after,
 a[href$="/u/Pembo120"]::after,
-a[href$="/u/pembo210"]:after {
+a[href$="/u/pembo210"]::after {
 visibility: visible;
 content: '';
 display: inline-block;
