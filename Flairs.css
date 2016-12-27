@@ -1,7 +1,7 @@
 a[href$="/user/Jobes"]:not(.upvoatsGiven),
 a[href$="/user/jobes"]:not(.upvoatsGiven),
-a[href$="/u/Jobes"],
-a[href$="/u/jobes"] {
+a[href$="/u/Jobes"]:not(.btn),
+a[href$="/u/jobes"]:not(.btn) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
