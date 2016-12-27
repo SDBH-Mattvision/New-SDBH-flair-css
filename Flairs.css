@@ -1,12 +1,16 @@
 a[href$="/user/Jobes"]:not(.upvoatsGiven),
-a[href$="/user/jobes"]:not(.upvoatsGiven) {
+a[href$="/user/jobes"]:not(.upvoatsGiven),
+a[href$="/u/Jobes"],
+a[href$="/u/jobes"] {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
 a[href$="/user/Jobes"]:not(upvoatsGiven)::after,
-a[href$="/user/jobes"]:not(upvoatsGiven)::after {
+a[href$="/user/jobes"]:not(upvoatsGiven)::after,
+a[href$="/u/jobes"],
+a[href$="/u/Jobes"] {
 visibility: visible;
 content: '';
 display: inline-block;
