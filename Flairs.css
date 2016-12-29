@@ -10,8 +10,8 @@ word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/CapitalizedUserName"]:not(upvoatsGiven)::after,
-a[href$="/user/lowercaseusername"]:not(upvoatsGiven)::after,
+a[href$="/user/CapitalizedUserName"]:not(.upvoatsGiven)::after,
+a[href$="/user/lowercaseusername"]:not(.upvoatsGiven)::after,
 a[href$="/u/CapitalizedUserName"]:after,
 a[href$="/u/lowercaseusername"]:after {
 visibility: visible;
@@ -2385,6 +2385,56 @@ border-radius: 2px;
 background-size: 100%;
 width: 58px;
 height: 44px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Polsaker"]:not(.upvoatsGiven),
+a[href$="/user/polsaker"]:not(.upvoatsGiven),
+a[href$="/u/Polsaker"]:not(.btn),
+a[href$="/u/polsaker"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+a[href$="/user/Polsaker"]:not(.upvoatsGiven)::after,
+a[href$="/user/polsaker"]:not(.upvoatsGiven)::after,
+a[href$="/u/Polsaker"]:after,
+a[href$="/u/polsaker"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/ndLJ6sZ.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 36px;
+height: 54px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/Phoxy"]:not(.upvoatsGiven),
+a[href$="/user/phoxy"]:not(.upvoatsGiven),
+a[href$="/u/Phoxy"]:not(.btn),
+a[href$="/u/phoxy"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+a[href$="/user/Phoxy"]:not(.upvoatsGiven)::after,
+a[href$="/user/phoxy"]:not(.upvoatsGiven)::after,
+a[href$="/u/Phoxy"]:after,
+a[href$="/u/phoxy"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/3Na6ghQ.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 24px;
+height: 31px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
