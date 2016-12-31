@@ -735,8 +735,8 @@ border: hidden;
 
 a[href$="/user/Techius"]:not(.upvoatsGiven),
 a[href$="/user/techius"]:not(.upvoatsGiven),
-a[href$="/u/Techius"]:not(.btn),
-a[href$="/u/techius"]:not(.btn) {
+a[href$="/u/OhPhukImInTrouble"]:not(.btn),
+a[href$="/u/ohphukimintrouble"]:not(.btn) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
@@ -744,8 +744,8 @@ letter-spacing: -999px;
 
 a[href$="/user/Techius"]:not(.upvoatsGiven)::after,
 a[href$="/user/techius"]:not(.upvoatsGiven)::after,
-a[href$="/u/Techius"]:after,
-a[href$="/u/techius"]:after {
+a[href$="/u/OhPhukImInTrouble"]:after,
+a[href$="/u/ohphukimintrouble"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -761,8 +761,8 @@ border: hidden;
 
 a[href$="/user/Techius"]:not(.upvoatsGiven):hover::after,
 a[href$="/user/techius"]:not(.upvoatsGiven):hover::after,
-a[href$="/u/Techius"]:hover:after,
-a[href$="/u/techius"]:hover:after {
+a[href$="/u/OhPhukImInTrouble"]:hover:after,
+a[href$="/u/ohphukimintrouble"]:hover:after {
 visibility: visible;
 content: '';
 display: inline-block;
