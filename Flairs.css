@@ -1,19 +1,19 @@
 /*
 Key:
 
-a[href$="/user/CapitalizedUserName"]:not(.upvoatsGiven),
-a[href$="/user/lowercaseusername (One of these has to be ctrl+V from their profile overview)"]:not(.upvoatsGiven),
-a[href$="/u/CapitalizedUserName"]:not(.btn),
-a[href$="/u/lowercaseusername"]:not(.btn) {
+a[href$="/user/CapitalizedVoatUserName"]:not(.upvoatsGiven),
+a[href$="/user/lowercasevoatusername (One of these has to be ctrl+V from their profile overview)"]:not(.upvoatsGiven),
+a[href$="/u/CapitalizedPhuksUserName"]:not(.btn),
+a[href$="/u/lowercasephuksusername"]:not(.btn) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/CapitalizedUserName"]:not(.upvoatsGiven)::after,
-a[href$="/user/lowercaseusername"]:not(.upvoatsGiven)::after,
-a[href$="/u/CapitalizedUserName"]:after,
-a[href$="/u/lowercaseusername"]:after {
+a[href$="/user/CapitalizedVoatUserName"]:not(.upvoatsGiven)::after,
+a[href$="/user/lowercasevoatusername"]:not(.upvoatsGiven)::after,
+a[href$="/u/CapitalizedPhuksUserName"]:after,
+a[href$="/u/lowercasephuksusername"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
