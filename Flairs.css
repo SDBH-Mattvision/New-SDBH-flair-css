@@ -2469,3 +2469,29 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/PhunkyPlatypus"]:not(.upvoatsGiven),
+a[href$="/user/phunkyplatypus"]:not(.upvoatsGiven),
+a[href$="/u/PhunkyPlatypus"]:not(.btn),
+a[href$="/u/phunkyplatypus"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/PhunkyPlatypus"]:not(upvoatsGiven)::after,
+a[href$="/user/phunkyplatypus"]:not(upvoatsGiven)::after,
+a[href$="/u/PhunkyPlatypus"]:after,
+a[href$="/u/phunkyplatypus"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/fJtd7E.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 80px;
+height: 42px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
