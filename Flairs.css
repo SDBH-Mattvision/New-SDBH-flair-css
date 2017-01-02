@@ -2439,3 +2439,33 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/E-werd"]:not(.upvoatsGiven),
+a[href$="/user/E-Werd"]:not(.upvoatsGiven),
+a[href$="/user/e-werd"]:not(.upvoatsGiven),
+a[href$="/u/E-werd"]:not(.btn),
+a[href$="/u/E-Werd"]:not(.btn),
+a[href$="/u/e-werd"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/E-werd"]:not(upvoatsGiven)::after,
+a[href$="/user/E-Werd"]:not(upvoatsGiven)::after,
+a[href$="/user/e-werd"]:not(upvoatsGiven)::after,
+a[href$="/u/E-werd"]:after,
+a[href$="/u/E-Werd"]:after,
+a[href$="/u/e-werd"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.sli.mg/McHK61.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 44px;
+height: 74px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
