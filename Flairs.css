@@ -2495,3 +2495,59 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/ForgotMyName"]:not(.upvoatsGiven),
+a[href$="/user/forgotmyname"]:not(.upvoatsGiven),
+a[href$="/u/ForgotMyName"]:not(.btn),
+a[href$="/u/forgotmyname"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/ForgotMyName"]:not(upvoatsGiven)::after,
+a[href$="/user/forgotmyname"]:not(upvoatsGiven)::after,
+a[href$="/u/ForgotMyName"]:after,
+a[href$="/u/forgotmyname"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/o5kNB62.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 60px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/user/BoujeeBagels"]:not(.upvoatsGiven),
+a[href$="/user/boujeebagels"]:not(.upvoatsGiven),
+a[href$="/user/Boujeebagels"]:not(.upvoatsGiven),
+a[href$="/u/BoujeeBagels"]:not(.btn),
+a[href$="/u/Boujeebagels"]:not(.btn),
+a[href$="/u/boujeebagels"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/BoujeeBagels"]:not(upvoatsGiven)::after,
+a[href$="/user/Boujeebagels"]:not(upvoatsGiven)::after,
+a[href$="/user/boujeebagels"]:not(upvoatsGiven)::after,
+a[href$="/u/BoujeeBagels"]:after,
+a[href$="/u/Boujeebagels"]:after,
+a[href$="/u/boujeebagels"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/TeOdacd.png);
+border-radius: 2px;
+background-size: 100%;
+width: 64px;
+height: 64px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
