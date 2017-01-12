@@ -2551,3 +2551,37 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/SJW_Troll"]:not(.upvoatsGiven),
+a[href$="/user/sjw_troll"]:not(.upvoatsGiven),
+a[href$="/user/Sjw_Troll"]:not(.upvoatsGiven),
+a[href$="/user/Sjw_troll"]:not(.upvoatsGiven),
+a[href$="/u/SJW_Troll"]:not(.btn),
+a[href$="/u/sjw_troll"]:not(.btn),
+a[href$="/u/Sjw_Troll"]:not(.btn),
+a[href$="/u/Sjw_troll"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/SJW_Troll"]:not(upvoatsGiven)::after,
+a[href$="/user/sjw_troll"]:not(upvoatsGiven)::after,
+a[href$="/user/Sjw_Troll"]:not(upvoatsGiven)::after,
+a[href$="/user/Sjw_troll"]:not(upvoatsGiven)::after,
+a[href$="/u/SJW_Troll"]:after,
+a[href$="/u/sjw_troll"]:after,
+a[href$="/u/Sjw_Troll"]:after,
+a[href$="/u/Sjw_troll"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/F0E2gtQ.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 50px;
+height: 65px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
