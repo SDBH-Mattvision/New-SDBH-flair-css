@@ -2675,3 +2675,30 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+
+a[href$="/user/BUTTHOLE_EMPRESS"]:not(.upvoatsGiven),
+a[href$="/user/butthole_empress"]:not(.upvoatsGiven),
+a[href$="/u/BUTTHOLE_EMPRESS"]:not(.btn),
+a[href$="/u/butthole_empress"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+ 
+a[href$="/user/BUTTHOLE_EMPRESS"]:not(.upvoatsGiven)::after,
+a[href$="/user/butthole_empress"]:not(.upvoatsGiven)::after,
+a[href$="/u/BUTTHOLE_EMPRESS"]:after,
+a[href$="/u/butthole_empress"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/9f0f895fb9/7090.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 72px;
+height: 100px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
