@@ -2701,3 +2701,31 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+
+
+a[href$="/user/Jimbonez_Jonez"]:not(.upvoatsGiven),
+a[href$="/user/jimbonez_jonez"]:not(.upvoatsGiven),
+a[href$="/u/Jimbonez_Jonez"]:not(.btn),
+a[href$="/u/jimbonez_jonez"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+ 
+a[href$="/user/Jimbonez_Jonez"]:not(.upvoatsGiven)::after,
+a[href$="/user/jimbonez_jonez"]:not(.upvoatsGiven)::after,
+a[href$="/u/Jimbonez_Jonez"]:after,
+a[href$="/u/jimbonez_jonez"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(http://i.imgur.com/4BHWOIu.png);
+border-radius: 2px;
+background-size: 100%;
+width: 70px;
+height: 75px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
