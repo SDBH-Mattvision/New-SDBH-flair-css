@@ -2224,11 +2224,11 @@ a[href$="/u/ina_pickle"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/IcIVTBq);
+background-image: url(http://i.imgur.com/IcIVTBql.jpg);
 border-radius: 2px;
 background-size: 100%;
-width: 85px;
-height: 85px;
+width: 100px;
+height: 52px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
