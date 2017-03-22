@@ -531,7 +531,7 @@ a[href$="/u/jambo"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/GpAfCqH.png);
+background-image: url(https://imgoat.com/uploads/5c48cce2e2/8089.gif); /*old : https://i.imgur.com/GpAfCqH.png*/
 border-radius: 2px;
 background-size: 100%;
 width: 32px;
