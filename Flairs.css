@@ -46,7 +46,7 @@ a[href$="/user/jobes"]:not(upvoatsGiven)::after,
 a[href$="/u/Jobes"]:after,
 a[href$="/u/jobes"]:after {
 visibility: visible;
-content: '';
+content: 'Mount Me';
 display: inline-block;
 background-image: url(http://i.imgur.com/w9mTnCU.png);
 border-radius: 2px;
@@ -850,7 +850,7 @@ a[href$="/u/littleTT"]:after,
 a[href$="/u/LittleTT"]:after,
 a[href$="/u/littlett"]:after {
 visibility: visible;
-content: '';
+content: '8::(,,,)::D~~';
 display: inline-block;
 background-image: url(https://i.imgur.com/xSLmTGn.gif);
 border-radius: 2px;
@@ -2028,11 +2028,11 @@ a[href$="/u/vladimir_komarov"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.sli.mg/F8h2SV.jpg);
+background-image: url(https://imgoat.com/uploads/5c48cce2e2/8079.jpg);
 border-radius: 2px;
 background-size: 100%;
-width: 82px;
-height: 46px;
+width: 50px;
+height: 62px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -2054,11 +2054,11 @@ a[href$="/u/techman"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.sli.mg/CX3t2V.jpg);
+background-image: url(https://imgoat.com/uploads/5c48cce2e2/8080.jpg);
 border-radius: 2px;
 background-size: 100%;
-width: 70px;
-height: 106px;
+width: 62px;
+height: 50px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -2080,11 +2080,11 @@ a[href$="/u/shwanky"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.sli.mg/YUQ5te.jpg);
+background-image: url(http://orig09.deviantart.net/77d7/f/2009/004/3/a/a_stick_figure_by_dare2beme14.jpg);
 border-radius: 2px;
 background-size: 100%;
 width: 52px;
-height: 90px;
+height: 60px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -2280,11 +2280,11 @@ a[href$="/u/I-Am-Me"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.sli.mg/CimysB.png);
+background-image: url(https://imgoat.com/uploads/5c48cce2e2/8081.png);
 border-radius: 2px;
 background-size: 100%;
-width: 50px;
-height: 49px;
+width: 60px;
+height: 60px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -2306,11 +2306,11 @@ a[href$="/u/weredawg"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.sli.mg/PuTQC7.jpg);
+background-image: url(https://imgoat.com/uploads/5c48cce2e2/8082.jpg);
 border-radius: 2px;
 background-size: 100%;
 width: 60px;
-height: 81px;
+height: 60px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -2332,11 +2332,11 @@ a[href$="/u/anson"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.sli.mg/WYKCz9.jpg);
+background-image: url(https://imgoat.com/uploads/5c48cce2e2/8083.jpg);
 border-radius: 2px;
 background-size: 100%;
-width: 47px;
-height: 55px;
+width: 80px;
+height: 80px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
