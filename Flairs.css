@@ -46,7 +46,7 @@ a[href$="/user/jobes"]:not(upvoatsGiven)::after,
 a[href$="/u/Jobes"]:after,
 a[href$="/u/jobes"]:after {
 visibility: visible;
-content: 'Mount Me';
+content: '';
 display: inline-block;
 background-image: url(http://i.imgur.com/w9mTnCU.png);
 border-radius: 2px;
@@ -850,7 +850,7 @@ a[href$="/u/littleTT"]:after,
 a[href$="/u/LittleTT"]:after,
 a[href$="/u/littlett"]:after {
 visibility: visible;
-content: '8::(,,,)::D~~';
+content: '';
 display: inline-block;
 background-image: url(https://i.imgur.com/xSLmTGn.gif);
 border-radius: 2px;
