@@ -2730,10 +2730,10 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Jobes"]:not(.upvoatsGiven),
-a[href$="/user/jobes"]:not(.upvoatsGiven),
-a[href$="/u/Jobes"]:not(.btn),
-a[href$="/u/jobes"]:not(.btn) {
+a[href$="/user/Jokersmild"]:not(.upvoatsGiven),
+a[href$="/user/jokersmild"]:not(.upvoatsGiven),
+a[href$="/u/Jokersmild"]:not(.btn),
+a[href$="/u/jokersmild"]:not(.btn) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
