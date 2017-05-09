@@ -2729,3 +2729,29 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/Jobes"]:not(.upvoatsGiven),
+a[href$="/user/jobes"]:not(.upvoatsGiven),
+a[href$="/u/Jobes"]:not(.btn),
+a[href$="/u/jobes"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/Jokersmild"]:not(upvoatsGiven)::after,
+a[href$="/user/jokersmild"]:not(upvoatsGiven)::after,
+a[href$="/u/Jokersmild"]:after,
+a[href$="/u/jokersmild"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://image.ibb.co/nFHED5/giphy.gif);
+border-radius: 2px;
+background-size: 100%;
+width: 37px;
+height: 28px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
