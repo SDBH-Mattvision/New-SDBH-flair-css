@@ -2755,3 +2755,30 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+
+a[href$="/user/beatlejuiceX3"]:not(.upvoatsGiven),
+a[href$="/user/beatlejuicex3"]:not(.upvoatsGiven),
+a[href$="/u/beatlejuiceX3"]:not(.btn),
+a[href$="/u/beatlejuicex3"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/beatlejuiceX3"]:not(upvoatsGiven)::after,
+a[href$="/user/beatlejuicex3"]:not(upvoatsGiven)::after,
+a[href$="/u/beatlejuiceX3"]:after,
+a[href$="/u/beatlejuicex3"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgtc.com/A4dRCXI.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 88px;
+height: 88px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
