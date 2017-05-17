@@ -2782,3 +2782,29 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/user/RussianIvantheCrazy"]:not(.upvoatsGiven),
+a[href$="/user/russianivanthecrazy"]:not(.upvoatsGiven),
+a[href$="/u/RussianIvantheCrazy"]:not(.btn),
+a[href$="/u/russianivanthecrazy"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/user/RussianIvantheCrazy"]:not(upvoatsGiven)::after,
+a[href$="/user/russianivanthecrazy"]:not(upvoatsGiven)::after,
+a[href$="/u/RussianIvantheCrazy"]:after,
+a[href$="/u/russianivanthecrazy"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgtc.com/mOMR7lP.png);
+border-radius: 2px;
+background-size: 100%;
+width: 40px;
+height: 60px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
