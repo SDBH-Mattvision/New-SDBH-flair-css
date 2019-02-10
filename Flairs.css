@@ -86,6 +86,10 @@ border: hidden;
 
 a[href$="/user/Mattvision"]:not(.upvoatsGiven),
 a[href$="/user/mattvision"]:not(.upvoatsGiven),
+a[href$="/user/Not_Mattvision"]:not(.upvoatsGiven),
+a[href$="/user/not_mattvision"]:not(.upvoatsGiven),
+a[href$="/user/Not_mattvision"]:not(.upvoatsGiven),
+a[href$="/user/not_Mattvision"]:not(.upvoatsGiven),
 a[href$="/u/Mattvision"]:not(.btn),
 a[href$="/u/mattvision"]:not(.btn) {
 visibility: hidden;
