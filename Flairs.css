@@ -1,27 +1,23 @@
 /*
 Key:
 
-a[href$="/user/CapitalizedVoatUserName"]:not(.upvoatsGiven),
-a[href$="/user/lowercasevoatusername (One of these has to be ctrl+V from their profile overview)"]:not(.upvoatsGiven),
-a[href$="/u/CapitalizedPhuksUserName"]:not(.btn),
-a[href$="/u/lowercasephuksusername"]:not(.btn) {
+a[href$="/u/CapitalizedUserName"]:not(.upvoatsGiven),
+a[href$="/u/lowercaseusername"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/CapitalizedVoatUserName"]:not(.upvoatsGiven)::after,
-a[href$="/user/lowercasevoatusername"]:not(.upvoatsGiven)::after,
-a[href$="/u/CapitalizedPhuksUserName"]:after,
-a[href$="/u/lowercasephuksusername"]:after {
+a[href$="/u/CapitalizedUserName"]:not(.upvoatsGiven)::after,
+a[href$="/u/lowercaseusername"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url( Imgur link. Slimgur might get shut down. );
+background-image: url( Image url. Use a host that won't be kill.);
 border-radius: 2px;
 background-size: 100%;
 width: (Width of the image)px;
-height: (Height of the image - Try to keep it under 70 and proportional to the width so it doesn't repeat)px;
+height: (Height of the image - under aim for under 70 and proportional to height. Bigger than 89 causes problems)px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -32,19 +28,15 @@ border: hidden;
 
 
 
-a[href$="/user/Jobes"]:not(.upvoatsGiven),
-a[href$="/user/jobes"]:not(.upvoatsGiven),
-a[href$="/u/Jobes"]:not(.btn),
-a[href$="/u/jobes"]:not(.btn) {
+a[href$="/u/Jobes"]:not(.upvoatsGiven),
+a[href$="/u/jobes"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Jobes"]:not(upvoatsGiven)::after,
-a[href$="/user/jobes"]:not(upvoatsGiven)::after,
-a[href$="/u/Jobes"]:after,
-a[href$="/u/jobes"]:after {
+a[href$="/u/Jobes"]:not(upvoatsGiven)::after,
+a[href$="/u/jobes"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -58,19 +50,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Mamwad"]:not(.upvoatsGiven),
-a[href$="/user/mamwad"],
-a[href$="/u/Mamwad"]:not(.btn),
-a[href$="/u/mamwad"]:not(.btn) {
+a[href$="/u/Mamwad"]:not(.upvoatsGiven),
+a[href$="/u/mamwad"] {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Mamwad"]:not(.upvoatsGiven)::after,
-a[href$="/user/mamwad"]:not(.upvoatsGiven)::after,
-a[href$="/u/Mamwad"]:after,
-a[href$="/u/mamwad"]:after {
+a[href$="/u/Mamwad"]:not(.upvoatsGiven)::after,
+a[href$="/u/mamwad"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -84,15 +72,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Mattvision"]:not(.upvoatsGiven),
-a[href$="/user/mattvision"]:not(.upvoatsGiven) {
+a[href$="/u/Mattvision"]:not(.upvoatsGiven),
+a[href$="/u/mattvision"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Mattvision"]:not(.upvoatsGiven)::after,
-a[href$="/user/mattvision"]:not(.upvoatsGiven)::after {
+a[href$="/u/Mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/u/mattvision"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -132,19 +120,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Singingoncloudnine"]:not(.upvoatsGiven)
-a[href$="/user/singingoncloudnine"]:not(.upvoatsGiven),
-a[href$="/u/Singingoncloudnine"]:not(.btn),
-a[href$="/u/singingoncloudnine"]:not(.btn) {
+a[href$="/u/Singingoncloudnine"]:not(.upvoatsGiven)
+a[href$="/u/singingoncloudnine"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Singingoncloudnine"]:not(.upvoatsGiven)::after,
-a[href$="/user/singingoncloudnine"]:not(.upvoatsGiven)::after,
-a[href$="/u/Singingoncloudnine"]:after,
-a[href$="/u/singingoncloudnine"]:after {
+a[href$="/u/Singingoncloudnine"]:not(.upvoatsGiven)::after,
+a[href$="/u/singingoncloudnine"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -157,19 +141,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven),
-a[href$="/user/mikehawksragen"]:not(.upvoatsGiven),
-a[href$="/u/MikeHawksRagen"]:not(.btn),
-a[href$="/u/mikehawksragen"]:not(.btn) {
+a[href$="/u/MikeHawksRagen"]:not(.upvoatsGiven),
+a[href$="/u/mikehawksragen"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/MikeHawksRagen"]:not(.upvoatsGiven)::after,
-a[href$="/user/mikehawksragen"]:not(.upvoatsGiven)::after,
-a[href$="/u/MikeHawksRagen"]:after,
-a[href$="/u/mikehawksragen"]:after {
+a[href$="/u/MikeHawksRagen"]:not(.upvoatsGiven)::after,
+a[href$="/u/mikehawksragen"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -183,19 +163,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/G4"]:not(.upvoatsGiven), 
-a[href$="/user/g4"]:not(.upvoatsGiven),
-a[href$="/u/G4"]:not(.btn),
-a[href$="/u/g4"]:not(.btn) {
+a[href$="/u/G4"]:not(.upvoatsGiven), 
+a[href$="/u/g4"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/G4"]:not(.upvoatsGiven)::after,
-a[href$="/user/g4"]:not(.upvoatsGiven)::after,
-a[href$="/u/G4"]:after,
-a[href$="/u/g4"]:after {
+a[href$="/u/G4"]:not(.upvoatsGiven)::after,
+a[href$="/u/g4"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -209,19 +185,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Weejobbie"]:not(.upvoatsGiven),
-a[href$="/user/weejobbie"]:not(.upvoatsGiven),
-a[href$="/u/Weejobbie"]:not(.btn),
-a[href$="/u/weejobbie"]:not(.btn) {
+a[href$="/u/Weejobbie"]:not(.upvoatsGiven),
+a[href$="/u/weejobbie"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Weejobbie"]:not(.upvoatsGiven)::after,
-a[href$="/user/weejobbie"]:not(.upvoatsGiven)::after,
-a[href$="/u/Weejobbie"]:after,
-a[href$="/u/weejobbie"]:after {
+a[href$="/u/Weejobbie"]:not(.upvoatsGiven)::after,
+a[href$="/u/weejobbie"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -235,19 +207,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/NihilistsLivesMatter"]:not(.upvoatsGiven),
-a[href$="/user/nihilistslivesmatter"]:not(.upvoatsGiven),
-a[href$="/u/NihilistsLivesMatter"]:not(.btn),
-a[href$="/u/nihilistslivesmatter"]:not(.btn) {
+a[href$="/u/NihilistsLivesMatter"]:not(.upvoatsGiven),
+a[href$="/u/nihilistslivesmatter"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/NihilistsLivesMatter"]:not(.upvoatsGiven)::after,
-a[href$="/user/nihilistslivesmatter"]:not(.upvoatsGiven)::after,
-a[href$="/u/NihilistsLivesMatter"]:after,
-a[href$="/u/nihilistslivesmatter"]:after {
+a[href$="/u/NihilistsLivesMatter"]:not(.upvoatsGiven)::after,
+a[href$="/u/nihilistslivesmatter"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -261,19 +229,15 @@ margin-right: .3em;
 border: hidden;;
 }
 
-a[href$="/user/Toats"]:not(.upvoatsGiven),
-a[href$="/user/toats"]:not(.upvoatsGiven),
-a[href$="/u/Toats"]:not(.btn),
-a[href$="/u/toats"]:not(.btn) {
+a[href$="/u/Toats"]:not(.upvoatsGiven),
+a[href$="/u/toats"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Toats"]:not(.upvoatsGiven)::after,
-a[href$="/user/toats"]:not(.upvoatsGiven)::after,
-a[href$="/u/Toats"]:after,
-a[href$="/u/toats"]:after {
+a[href$="/u/Toats"]:not(.upvoatsGiven)::after,
+a[href$="/u/toats"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -286,19 +250,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/6double5321"]:not(.upvoatsGiven),
-a[href$="/user/6double5321"]:not(.upvoatsGiven),
-a[href$="/u/6double5321"]:not(.btn),
-a[href$="/u/6double5321"]:not(.btn) {
+a[href$="/u/6double5321"]:not(.upvoatsGiven),
+a[href$="/u/6double5321"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/6double5321"]:not(.upvoatsGiven)::after,
-a[href$="/user/6double5321"]:not(.upvoatsGiven)::after,
-a[href$="/u/6double5321"]:after,
-a[href$="/u/6double5321"]:after {
+a[href$="/u/6double5321"]:not(.upvoatsGiven)::after,
+a[href$="/u/6double5321"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -312,19 +272,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Illpoet"]:not(.upvoatsGiven),
-a[href$="/user/illpoet"]:not(.upvoatsGiven),
-a[href$="/u/Illpoet"]:not(.btn),
-a[href$="/u/illpoet"]:not(.btn) {
+a[href$="/u/Illpoet"]:not(.upvoatsGiven),
+a[href$="/u/illpoet"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Illpoet"]:not(.upvoatsGiven)::after,
-a[href$="/user/illpoet"]:not(.upvoatsGiven)::after,
-a[href$="/u/Illpoet"]:after,
-a[href$="/u/illpoet"]:after {
+a[href$="/u/Illpoet"]:not(.upvoatsGiven)::after,
+a[href$="/u/illpoet"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -338,19 +294,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Kevdude"]:not(.upvoatsGiven),
-a[href$="/user/kevdude"]:not(.upvoatsGiven),
-a[href$="/u/Kevdude"]:not(.btn),
-a[href$="/u/kevdude"]:not(.btn) {
+a[href$="/u/Kevdude"]:not(.upvoatsGiven),
+a[href$="/u/kevdude"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Kevdude"]:not(.upvoatsGiven)::after,
-a[href$="/user/kevdude"]:not(.upvoatsGiven)::after,
-a[href$="/u/Kevdude"]:after,
-a[href$="/u/kevdude"]:after {
+a[href$="/u/Kevdude"]:not(.upvoatsGiven)::after,
+a[href$="/u/kevdude"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -377,19 +329,15 @@ color: #3399CC;
 border-style: hidden;
 }
 
-a[href$="/user/Lackscompassion"]:not(.upvoatsGiven),
-a[href$="/user/lackscompassion"]:not(.upvoatsGiven),
-a[href$="/u/Lackscompassion"]:not(.btn),
-a[href$="/u/lackscompassion"]:not(.btn) {
+a[href$="/u/Lackscompassion"]:not(.upvoatsGiven),
+a[href$="/u/lackscompassion"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Lackscompassion"]:not(.upvoatsGiven)::after,
-a[href$="/user/lackscompassion"]:not(.upvoatsGiven)::after,
-a[href$="/u/Lackscompassion"]:after,
-a[href$="/u/lackscompassion"]:after {
+a[href$="/u/Lackscompassion"]:not(.upvoatsGiven)::after,
+a[href$="/u/lackscompassion"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -403,19 +351,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Farmer-"]:not(.upvoatsGiven),
-a[href$="/user/farmer-"]:not(.upvoatsGiven),
-a[href$="/u/Farmer-"]:not(.btn),
-a[href$="/u/farmer-"]:not(.btn) {
+a[href$="/u/Farmer-"]:not(.upvoatsGiven),
+a[href$="/u/farmer-"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Farmer-"]:not(.upvoatsGiven)::after,
-a[href$="/user/farmer-"]:not(.upvoatsGiven)::after,
-a[href$="/u/Farmer-"]:after,
-a[href$="/u/farmer-"]:after {
+a[href$="/u/Farmer-"]:not(.upvoatsGiven)::after,
+a[href$="/u/farmer-"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -429,19 +373,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Dallasmuseum"]:not(.upvoatsGiven),
-a[href$="/user/dallasmuseum"]:not(.upvoatsGiven),
-a[href$="/u/Dallasmuseum"]:not(.btn),
-a[href$="/u/dallasmuseum"]:not(.btn) {
+a[href$="/u/Dallasmuseum"]:not(.upvoatsGiven),
+a[href$="/u/dallasmuseum"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Dallasmuseum"]:not(.upvoatsGiven)::after,
-a[href$="/user/dallasmuseum"]:not(.upvoatsGiven)::after,
-a[href$="/u/Dallasmuseum"]:after,
-a[href$="/u/dallasmuseum"]:after {
+a[href$="/u/Dallasmuseum"]:not(.upvoatsGiven)::after,
+a[href$="/u/dallasmuseum"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -455,19 +395,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/NoahWard"]:not(.upvoatsGiven),
-a[href$="/user/noahward"]:not(.upvoatsGiven),
-a[href$="/u/NoahWard"]:not(.btn),
-a[href$="/u/noahward"]:not(.btn) {
+a[href$="/u/NoahWard"]:not(.upvoatsGiven),
+a[href$="/u/noahward"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/NoahWard"]:not(.upvoatsGiven)::after,
-a[href$="/user/noahward"]:not(.upvoatsGiven)::after,
-a[href$="/u/NoahWard"]:after,
-a[href$="/u/noahward"]:after {
+a[href$="/u/NoahWard"]:not(.upvoatsGiven)::after,
+a[href$="/u/noahward"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -481,19 +417,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Oddjob"]:not(.upvoatsGiven),
-a[href$="/user/oddjob"]:not(.upvoatsGiven),
-a[href$="/u/Oddjob"]:not(.btn),
-a[href$="/u/oddjob"]:not(.btn) {
+a[href$="/u/Oddjob"]:not(.upvoatsGiven),
+a[href$="/u/oddjob"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Oddjob"]:not(.upvoatsGiven)::after,
-a[href$="/user/oddjob"]:not(.upvoatsGiven)::after,
-a[href$="/u/Oddjob"]:after,
-a[href$="/u/oddjob"]:after {
+a[href$="/u/Oddjob"]:not(.upvoatsGiven)::after,
+a[href$="/u/oddjob"]:not(.upvoatsGiven)::after {
 visibility: visible;
 background-image: url(https://i.imgur.com/eqZp3HS.png);
 content: '';
@@ -507,19 +439,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Squataclops"]:not(.upvoatsGiven),
-a[href$="/user/squataclops"]:not(.upvoatsGiven),
-a[href$="/u/Squataclops"]:not(.btn),
-a[href$="/u/squataclops"]:not(.btn) {
+a[href$="/u/Squataclops"]:not(.upvoatsGiven),
+a[href$="/u/squataclops"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Squataclops"]:not(.upvoatsGiven)::after,
-a[href$="/user/squataclops"]:not(.upvoatsGiven)::after,
-a[href$="/u/Squataclops"]:after,
-a[href$="/u/squataclops"]:after {
+a[href$="/u/Squataclops"]:not(.upvoatsGiven)::after,
+a[href$="/u/squataclops"]:not(.upvoatsGiven)::after {
 visibility: visible;
 background-image: url(https://i.imgur.com/XfQXDcA.png);
 content: '';
@@ -533,19 +461,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Jambo"]:not(.upvoatsGiven),
-a[href$="/user/jambo"]:not(.upvoatsGiven),
-a[href$="/u/Jambo"]:not(.btn),
-a[href$="/u/jambo"]:not(.btn) {
+a[href$="/u/Jambo"]:not(.upvoatsGiven),
+a[href$="/u/jambo"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Jambo"]:not(.upvoatsGiven)::after,
-a[href$="/user/jambo"]:not(.upvoatsGiven)::after,
-a[href$="/u/Jambo"]:after,
-a[href$="/u/jambo"]:after {
+a[href$="/u/Jambo"]:not(.upvoatsGiven)::after,
+a[href$="/u/jambo"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -559,19 +483,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href=$"/user/Typo"]:not(.upvoatsGiven),
-a[href=$"/user/typo"]:not(.upvoatsGiven),
-a[href$="/u/Typo"]:not(.btn),
-a[href$="/u/typo"]:not(.btn) {
+a[href=$"/u/Typo"]:not(.upvoatsGiven),
+a[href=$"/u/typo"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Typo"]:not(.upvoatsGiven)::after,
-a[href$="/user/typo"]:not(.upvoatsGiven)::after,
-a[href$="/u/Typo"]:after,
-a[href$="/u/typo"]:after {
+a[href$="/u/Typo"]:not(.upvoatsGiven)::after,
+a[href$="/u/typo"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -585,19 +505,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/9-11"]:not(.upvoatsGiven),
-a[href$="/user/9-11"]:not(.upvoatsGiven),
-a[href$="/u/9-11"]:not(.btn),
-a[href$="/u/9-11"]:not(.btn) {
+a[href$="/u/9-11"]:not(.upvoatsGiven),
+a[href$="/u/9-11"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/9-11"]:not(.upvoatsGiven)::after,
-a[href$="/user/9-11"]:not(.upvoatsGiven)::after,
-a[href$="/u/9-11"]:after,
-a[href$="/u/9-11"]:after {
+a[href$="/u/9-11"]:not(.upvoatsGiven)::after,
+a[href$="/u/9-11"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -611,19 +527,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/By_The_Water"]:not(.upvoatsGiven),
-a[href$="/user/by_the_water"]:not(.upvoatsGiven),
-a[href$="/u/By_The_Water"]:not(.btn),
-a[href$="/u/by_the_water"]:not(.btn) {
+a[href$="/u/By_The_Water"]:not(.upvoatsGiven),
+a[href$="/u/by_the_water"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/By_The_Water"]:not(.upvoatsGiven)::after,
-a[href$="/user/by_the_water"]:not(.upvoatsGiven)::after,
-a[href$="/u/By_The_Water"]:after,
-a[href$="/u/by_the_water"]:after {
+a[href$="/u/By_The_Water"]:not(.upvoatsGiven)::after,
+a[href$="/u/by_the_water"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -637,19 +549,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Mercuenomia"]:not(.upvoatsGiven),
-a[href$="/user/mercuenomia"]:not(.upvoatsGiven),
-a[href$="/u/Mercuenomia"]:not(.btn),
-a[href$="/u/mercuenomia"]:not(.btn) {
+a[href$="/u/Mercuenomia"]:not(.upvoatsGiven),
+a[href$="/u/mercuenomia"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Mercuenomia"]:not(.upvoatsGiven)::after,
-a[href$="/user/mercuenomia"]:not(.upvoatsGiven)::after,
-a[href$="/u/Mercuenomia"]:after,
-a[href$="/u/mercuenomia"]:after {
+a[href$="/u/Mercuenomia"]:not(.upvoatsGiven)::after,
+a[href$="/u/mercuenomia"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -677,19 +585,15 @@ color: #3399CC;
 border-style: hidden;
 }
 
-a[href$="/user/Link1299"]:not(.upvoatsGiven),
-a[href$="/user/link1299"]:not(.upvoatsGiven),
-a[href$="/u/Link1299"]:not(.btn),
-a[href$="/u/link1299"]:not(.btn) {
+a[href$="/u/Link1299"]:not(.upvoatsGiven),
+a[href$="/u/link1299"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Link1299"]:not(.upvoatsGiven)::after,
-a[href$="/user/link1299"]:not(.upvoatsGiven)::after,
-a[href$="/u/Link1299"]:after,
-a[href$="/u/link1299"]:after {
+a[href$="/u/Link1299"]:not(.upvoatsGiven)::after,
+a[href$="/u/link1299"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -703,19 +607,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Moliver"]:not(.upvoatsGiven),
-a[href$="/user/moliver"]:not(.upvoatsGiven),
-a[href$="/u/Moliver"]:not(.btn),
-a[href$="/u/moliver"]:not(.btn) {
+a[href$="/u/Moliver"]:not(.upvoatsGiven),
+a[href$="/u/moliver"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Moliver"]:not(.upvoatsGiven)::after,
-a[href$="/user/moliver"]:not(.upvoatsGiven)::after,
-a[href$="/u/Moliver"]:after,
-a[href$="/u/moliver"]:after {
+a[href$="/u/Moliver"]:not(.upvoatsGiven)::after,
+a[href$="/u/moliver"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -729,19 +629,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Pembo210"]:not(.upvoatsGiven),
-a[href$="/user/pembo210"]:not(.upvoatsGiven),
-a[href$="/u/Pembo210"]:not(.btn),
-a[href$="/u/pembo210"]:not(.btn) {
+a[href$="/u/Pembo210"]:not(.upvoatsGiven),
+a[href$="/u/pembo210"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Pembo210"]:not(.upvoatsGiven)::after,
-a[href$="/user/pembo210"]:not(.upvoatsGiven)::after,
-a[href$="/u/Pembo120"]::after,
-a[href$="/u/pembo210"]::after {
+a[href$="/u/Pembo210"]:not(.upvoatsGiven)::after,
+a[href$="/u/pembo210"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -755,19 +651,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Techius"]:not(.upvoatsGiven),
-a[href$="/user/techius"]:not(.upvoatsGiven),
-a[href$="/u/OhPhukImInTrouble"]:not(.btn),
-a[href$="/u/ohphukimintrouble"]:not(.btn) {
+a[href$="/u/Techius"]:not(.upvoatsGiven),
+a[href$="/u/techius"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Techius"]:not(.upvoatsGiven)::after,
-a[href$="/user/techius"]:not(.upvoatsGiven)::after,
-a[href$="/u/OhPhukImInTrouble"]:after,
-a[href$="/u/ohphukimintrouble"]:after {
+a[href$="/u/Techius"]:not(.upvoatsGiven)::after,
+a[href$="/u/techius"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -781,10 +673,8 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Techius"]:not(.upvoatsGiven):hover::after,
-a[href$="/user/techius"]:not(.upvoatsGiven):hover::after,
-a[href$="/u/OhPhukImInTrouble"]:hover:after,
-a[href$="/u/ohphukimintrouble"]:hover:after {
+a[href$="/u/Techius"]:not(.upvoatsGiven):hover::after,
+a[href$="/u/techius"]:not(.upvoatsGiven):hover::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -798,19 +688,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Failure"]:not(.upvoatsGiven),
-a[href$="/user/failure"]:not(.upvoatsGiven),
-a[href$="/u/Failure"]:not(.btn),
-a[href$="/u/failure"]:not(.btn) {
+a[href$="/u/Failure"]:not(.upvoatsGiven),
+a[href$="/u/failure"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Failure"]:not(.upvoatsGiven)::after,
-a[href$="/user/failure"]:not(.upvoatsGiven)::after,
-a[href$="/u/Failure"]:after,
-a[href$="/u/failure"]:after {
+a[href$="/u/Failure"]:not(.upvoatsGiven)::after,
+a[href$="/u/failure"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -824,19 +710,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Pornhub_Katie"]:not(.upvoatsGiven),
-a[href$="/user/pornhub_katie"]:not(.upvoatsGiven),
-a[href$="/u/Pornhub_Katie"]:not(.btn),
-a[href$="/u/pornhub_katie"]:not(.btn) {
+a[href$="/u/Pornhub_Katie"]:not(.upvoatsGiven),
+a[href$="/u/pornhub_katie"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Pornhub_Katie"]:not(.upvoatsGiven)::after,
-a[href$="/user/pornhub_katie"]:not(.upvoatsGiven)::after,
-a[href$="/u/Pornhub_Katie"]:after,
-a[href$="/u/pornhub_katie"]:after {
+a[href$="/u/Pornhub_Katie"]:not(.upvoatsGiven)::after,
+a[href$="/u/pornhub_katie"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -850,23 +732,17 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/littleTT"]:not(.upvoatsGiven),
-a[href$="/user/LittleTT"]:not(.upvoatsGiven),
-a[href$="/user/littlett"]:not(.upvoatsGiven),
-a[href$="/u/littleTT"]:not(.btn),
-a[href$="/u/LittleTT"]:not(.btn),
-a[href$="/u/littlett"]:not(.btn) {
+a[href$="/u/littleTT"]:not(.upvoatsGiven),
+a[href$="/u/LittleTT"]:not(.upvoatsGiven),
+a[href$="/u/littlett"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/littleTT"]:not(.upvoatsGiven)::before,
-a[href$="/user/LittleTT"]:not(.upvoatsGiven)::before,
-a[href$="/user/littlett"]:not(.upvoatsGiven)::before,
-a[href$="/u/littleTT"]:after,
-a[href$="/u/LittleTT"]:after,
-a[href$="/u/littlett"]:after {
+a[href$="/u/littleTT"]:not(.upvoatsGiven)::before,
+a[href$="/u/LittleTT"]:not(.upvoatsGiven)::before,
+a[href$="/u/littlett"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -880,19 +756,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Penguincheerleader"]:not(.upvoatsGiven),
-a[href$="/user/penguincheerleader"]:not(.upvoatsGiven),
-a[href$="/u/Penguincheerleader"]:not(.btn),
-a[href$="/u/penguincheerleader"]:not(.btn) {
+a[href$="/u/Penguincheerleader"]:not(.upvoatsGiven),
+a[href$="/u/penguincheerleader"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Penguincheerleader"]:not(.upvoatsGiven)::after,
-a[href$="/user/penguincheerleader"]:not(.upvoatsGiven)::after,
-a[href$="/u/Penguincheerleader"]:after,
-a[href$="/u/penguincheerleader"]:after {
+a[href$="/u/Penguincheerleader"]:not(.upvoatsGiven)::after,
+a[href$="/u/penguincheerleader"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -920,8 +792,6 @@ color: #3399CC;
 border-style: hidden;
 }
 
-a[href$="/user/Crensch"]:after,
-a[href$="/user/crensch"]:after,
 a[href$="/u/Crensch"]:after,
 a[href$="/u/crensch"]:after {
 background: #fff;
@@ -944,19 +814,15 @@ box-sizing: border-box;
 vertical-align: middle;
 }
 
-a[href$="/user/Jesuspiece"]:not(.upvoatsGiven),
-a[href$="/user/jesuspiece"]:not(.upvoatsGiven),
-a[href$="/u/Jesuspiece"]:not(.btn),
-a[href$="/u/jesuspiece"]:not(.btn) {
+a[href$="/u/Jesuspiece"]:not(.upvoatsGiven),
+a[href$="/u/jesuspiece"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Jesuspiece"]:not(.upvoatsGiven)::after,
-a[href$="/user/jesuspiece"]:not(.upvoatsGiven)::after,
-a[href$="/u/Jesuspiece"]:after,
-a[href$="/u/jesuspiece"]:after {
+a[href$="/u/Jesuspiece"]:not(.upvoatsGiven)::after,
+a[href$="/u/jesuspiece"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -969,19 +835,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/HumbleBumble"]:not(.upvoatsGiven),
-a[href$="/user/humblebumble"]:not(.upvoatsGiven),
-a[href$="/u/HumbleBumble"]:not(.btn),
-a[href$="/u/humblebumble"]:not(.btn) {
+a[href$="/u/HumbleBumble"]:not(.upvoatsGiven),
+a[href$="/u/humblebumble"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/HumbleBumble"]:not(.upvoatsGiven)::after,
-a[href$="/user/humblebumble"]:not(.upvoatsGiven)::after,
-a[href$="/u/HumbleBumble"]:after,
-a[href$="/u/humblebumble"]:after {
+a[href$="/u/HumbleBumble"]:not(.upvoatsGiven)::after,
+a[href$="/u/humblebumble"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -995,19 +857,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/PntBtr"]:not(.upvoatsGiven),
-a[href$="/user/pntbtr"]:not(.upvoatsGiven),
-a[href$="/u/PntBtr"]:not(.btn),
-a[href$="/u/pntbtr"]:not(.btn) {
+a[href$="/u/PntBtr"]:not(.upvoatsGiven),
+a[href$="/u/pntbtr"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/PntBtr"]:not(.upvoatsGiven)::after,
-a[href$="/user/pntbtr"]:not(.upvoatsGiven)::after,
-a[href$="/u/PntBtr"]:after,
-a[href$="/u/pntbtr"]:after {
+a[href$="/u/PntBtr"]:not(.upvoatsGiven)::after,
+a[href$="/u/pntbtr"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1021,19 +879,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Highly_Paid_Orgy_Pro"]:not(.upvoatsGiven),
-a[href$="/user/highly_paid_orgy_pro"]:not(.upvoatsGiven),
-a[href$="/u/Highly_Paid_Orgy_Pro"]:not(.btn),
-a[href$="/u/highly_paid_orgy_pro"]:not(.btn) {
+a[href$="/u/Highly_Paid_Orgy_Pro"]:not(.upvoatsGiven),
+a[href$="/u/highly_paid_orgy_pro"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Highly_Paid_Orgy_Pro"]:not(.upvoatsGiven)::after,
-a[href$="/user/highly_paid_orgy_pro"]:not(.upvoatsGiven)::after,
-a[href$="/u/Highly_Paid_Orgy_Pro"]:after,
-a[href$="/u/highly_paid_orgy_pro"]:after {
+a[href$="/u/Highly_Paid_Orgy_Pro"]:not(.upvoatsGiven)::after,
+a[href$="/u/highly_paid_orgy_pro"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1047,17 +901,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Itazuka"]:not(.upvoatsGiven),
-a[href$="/user/itazuka"]:not(.upvoatsGiven) {
+a[href$="/u/Itazuka"]:not(.upvoatsGiven),
+a[href$="/u/itazuka"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Itazuka"]:not(.upvoatsGiven)::after,
-a[href$="/user/itazuka"]:not(.upvoatsGiven)::after,
-a[href$="/u/Itazuka"]:after,
-a[href$="/u/Itazuka"]:after {
+a[href$="/u/Itazuka"]:not(.upvoatsGiven)::after,
+a[href$="/u/itazuka"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: "Fucking hippie";
 word-spacing: normal;
@@ -1074,8 +926,8 @@ border-radius: 10px;
 }
 
 
-a[href$="/user/Itazuka"]:not(.upvoatsGiven):hover::before,
-a[href$="/user/itazuka"]:not(.upvoatsGiven):hover::before {
+a[href$="/u/Itazuka"]:not(.upvoatsGiven):hover::before,
+a[href$="/u/itazuka"]:not(.upvoatsGiven):hover::before {
 visibility: visible;
 content: "";
 display: inline-block;
@@ -1090,19 +942,15 @@ border: hidden;
 font-size: 15px !important;
 }
 
-a[href$="/user/Redditbelowsme"]:not(.upvoatsGiven),
-a[href$="/user/redditbelowsme"]:not(.upvoatsGiven),
-a[href$="/u/Redditbelowsme"]:not(.btn),
-a[href$="/u/redditbelowsme"]:not(.btn) {
+a[href$="/u/Redditbelowsme"]:not(.upvoatsGiven),
+a[href$="/u/redditbelowsme"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Redditbelowsme"]:not(.upvoatsGiven)::after,
-a[href$="/user/redditbelowsme"]:not(.upvoatsGiven)::after,
-a[href$="/u/Redditbelowsme"]:after,
-a[href$="/u/redditbelowsme"]:after {
+a[href$="/u/Redditbelowsme"]:not(.upvoatsGiven)::after,
+a[href$="/u/redditbelowsme"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1116,17 +964,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/aGameCalledCountries"]:not(.upvoatsGiven),
-a[href$="/user/agamecalledcountries"]:not(.upvoatsGiven),
-a[href$="/u/aGameCalledCountries"]:not(.btn),
-a[href$="/u/agamecalledcountries"]:not(.btn) {
+a[href$="/u/aGameCalledCountries"]:not(.upvoatsGiven),
+a[href$="/u/agamecalledcountries"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/aGameCalledCountries"]:not(.upvoatsGiven)::before,
-a[href$="/user/agamecalledcountries"]:not(.upvoatsGiven)::before {
+a[href$="/u/aGameCalledCountries"]:not(.upvoatsGiven)::before,
+a[href$="/u/agamecalledcountries"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: " Ted Cruz ";
 word-spacing: normal;
@@ -1139,10 +985,8 @@ color: #3399CC;
 border-style: hidden;
 }
 
-a[href$="/user/aGameCalledCountries"]:not(.upvoatsGiven)::after,
-a[href$="/user/agamecalledcountries"]:not(.upvoatsGiven)::after,
-a[href$="/u/aGameCalledCountries"]:after,
-a[href$="/u/agamecalledcountries"]:after {
+a[href$="/u/aGameCalledCountries"]:not(.upvoatsGiven)::after,
+a[href$="/u/agamecalledcountries"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1156,19 +1000,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/NinjaJunkie"]:not(.upvoatsGiven),
-a[href$="/user/ninjajunkie"]:not(.upvoatsGiven),
-a[href$="/u/NinjaJunkie"]:not(.btn),
-a[href$="/u/ninjajunkie"]:not(.btn) {
+a[href$="/u/NinjaJunkie"]:not(.upvoatsGiven),
+a[href$="/u/ninjajunkie"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/NinjaJunkie"]:not(.upvoatsGiven)::after,
-a[href$="/user/ninjajunkie"]:not(.upvoatsGiven)::after,
-a[href$="/u/NinjaJunkie"]:after,
-a[href$="/u/ninjajunkie"]:after {
+a[href$="/u/NinjaJunkie"]:not(.upvoatsGiven)::after,
+a[href$="/u/ninjajunkie"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1182,19 +1022,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Dorven"]:not(.upvoatsGiven),
-a[href$="/user/dorven"]:not(.upvoatsGiven),
-a[href$="/u/Dorven"]:not(.btn),
-a[href$="/u/dorven"]:not(.btn) {
+a[href$="/u/Dorven"]:not(.upvoatsGiven),
+a[href$="/u/dorven"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Dorven"]:not(.upvoatsGiven)::after,
-a[href$="/user/dorven"]:not(.upvoatsGiven)::after,
-a[href$="/u/Droven"]:after,
-a[href$="/u/droven"]:after {
+a[href$="/u/Dorven"]:not(.upvoatsGiven)::after,
+a[href$="/u/dorven"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1208,19 +1044,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Boukert"]:not(.upvoatsGiven),
-a[href$="/user/boukert"]:not(.upvoatsGiven),
-a[href$="/u/Boukert"]:not(.btn),
-a[href$="/u/boukert"]:not(.btn) {
+a[href$="/u/Boukert"]:not(.upvoatsGiven),
+a[href$="/u/boukert"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Boukert"]:not(upvoatsGiven)::after,
-a[href$="/user/boukert"]:not(upvoatsGiven)::after,
-a[href$="/u/Boukert"]:after,
-a[href$="/u/boukert"]:after {
+a[href$="/u/Boukert"]:not(upvoatsGiven)::after,
+a[href$="/u/boukert"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1234,16 +1066,14 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven),
-a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven),
-a[href$="/u/PMYA"]:not(.btn),
-a[href$="/u/pmya"]:not(.btn) {
+a[href$="/u/pm_me_your_arches"]:not(.upvoatsGiven),
+a[href$="/u/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
-a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::before,
-a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven)::before {
+a[href$="/u/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::before,
+a[href$="/u/pm_me_your_arches"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: " SRS ";
 word-spacing: normal;
@@ -1255,14 +1085,12 @@ background: transparent;
 color: #3399CC;
 border-style: hidden;
 }
-a[href$="/user/pm_me_your_arches"]:not(.upvoatsGiven)::after,
-a[href$="/user/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::after,
-a[href$="/u/PMYA"]:after,
-a[href$="/u/pmya"]:after {
+a[href$="/u/pm_me_your_arches"]:not(.upvoatsGiven)::after,
+a[href$="/u/PM_ME_YOUR_ARCHES"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/AQZO2Um.png);
+background-image: url(https://i.phoxy.win/e6794ff6-6498-5faa-a91a-baa71de3ec05.jpg);
 background-size: 100%;
 border-radius: 0px ;
 width: 90px;
@@ -1272,19 +1100,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Zaebos_11"]:not(.upvoatsGiven),
-a[href$="/user/zaebos_11"]:not(.upvoatsGiven),
-a[href$="/u/Zaebos_11"]:not(.btn),
-a[href$="/u/zaebos_11"]:not(.btn) {
+a[href$="/u/Zaebos_11"]:not(.upvoatsGiven),
+a[href$="/u/zaebos_11"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Zaebos_11"]:not(.upvoatsGiven)::after,
-a[href$="/user/zaebos_11"]:not(.upvoatsGiven)::after,
-a[href$="/u/Zaebos_11"]:after,
-a[href$="/u/zaebos_11"]:after {
+a[href$="/u/Zaebos_11"]:not(.upvoatsGiven)::after,
+a[href$="/u/zaebos_11"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1298,19 +1122,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Alybad"]:not(.upvoatsGiven),
-a[href$="/user/alybad"]:not(.upvoatsGiven),
-a[href$="/u/Alybad"]:not(.btn),
-a[href$="/u/alybad"]:not(.btn) {
+a[href$="/u/Alybad"]:not(.upvoatsGiven),
+a[href$="/u/alybad"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Alybad"]:not(.upvoatsGiven)::after,
-a[href$="/user/alybad"]:not(.upvoatsGiven)::after,
-a[href$="/u/Alybad"]:after,
-a[href$="/u/alybad"]:after {
+a[href$="/u/Alybad"]:not(.upvoatsGiven)::after,
+a[href$="/u/alybad"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1324,19 +1144,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Weebo"]:not(.upvoatsGiven),
-a[href$="/user/weebo"]:not(.upvoatsGiven),
-a[href$="/u/Weebo"]:not(.btn),
-a[href$="/u/weebo"]:not(.btn) {
+a[href$="/u/Weebo"]:not(.upvoatsGiven),
+a[href$="/u/weebo"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Weebo"]:not(.upvoatsGiven)::after,
-a[href$="/user/weebo"]:not(.upvoatsGiven)::after,
-a[href$="/u/Weebo"]:after,
-a[href$="/u/weebo"]:after {
+a[href$="/u/Weebo"]:not(.upvoatsGiven)::after,
+a[href$="/u/weebo"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1350,43 +1166,37 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/PlankO"]:not(.upvoatsGiven),
-a[href$="/user/plankO"]:not(.upvoatsGiven),
-a[href$="/u/PlankO"]:not(.btn),
-a[href$="/u/plankO"]:not(.btn) {
-      visibility: hidden;
-      word-spacing: -999px;
-      letter-spacing: -999px;
-}
-
-a[href$="/user/PlankO"]:not(.upvoatsGiven)::after,
-a[href$="/user/plankO"]:not(.upvoatsGiven)::after,
-a[href$="/u/PlankO"]:after,
-a[href$="/u/plankO"]:after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(https://i.imgur.com/xUYqjW0.jpg?1);
-    background-size: 100%;
-    border-radius: 5px ;
-    width: 90px;
-    height: 32px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
-}
-
-a[href$="/user/Coopzy"]:not(.upvoatsGiven),
-a[href$="/user/coopzy"]:not(.upvoatsGiven),
-a[href$="/u/Coopzy"]:not(.btn),
-a[href$="/u/coopzy"]:not(.btn) {
+a[href$="/u/PlankO"]:not(.upvoatsGiven),
+a[href$="/u/plankO"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Coopzy"]:not(.upvoatsGiven)::before,
-a[href$="/user/coopzy"]:not(.upvoatsGiven)::before {
+a[href$="/u/PlankO"]:not(.upvoatsGiven)::after,
+a[href$="/u/plankO"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/xUYqjW0.jpg?1);
+background-size: 100%;
+border-radius: 5px ;
+width: 90px;
+height: 32px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/Coopzy"]:not(.upvoatsGiven),
+a[href$="/u/coopzy"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/Coopzy"]:not(.upvoatsGiven)::before,
+a[href$="/u/coopzy"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: " Michael H. Kenyon ";
 word-spacing: normal;
@@ -1398,10 +1208,8 @@ background: transparent;
 color: #3399CC;
 border-style: hidden;
 }
-a[href$="/user/Coopzy"]:not(.upvoatsGiven)::after,
-a[href$="/user/coopzy"]:not(.upvoatsGiven)::after,
-a[href$="/u/Coopzy"]:after,
-a[href$="/u/coopzy"]:after {
+a[href$="/u/Coopzy"]:not(.upvoatsGiven)::after,
+a[href$="/u/coopzy"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1414,19 +1222,15 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
-a[href$="/user/DrWizzle"]:not(.upvoatsGiven),
-a[href$="/user/drwizzle"]:not(.upvoatsGiven),
-a[href$="/u/DrWizzle"]:not(.btn),
-a[href$="/u/drwizzle"]:not(.btn) {
+a[href$="/u/DrWizzle"]:not(.upvoatsGiven),
+a[href$="/u/drwizzle"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/DrWizzle"]:not(.upvoatsGiven)::after,
-a[href$="/user/drwizzle"]:not(.upvoatsGiven)::after,
-a[href$="/u/DrWizzle"]:after,
-a[href$="/u/drwizzle"]:after {
+a[href$="/u/DrWizzle"]:not(.upvoatsGiven)::after,
+a[href$="/u/drwizzle"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1439,16 +1243,14 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
-a[href$="/user/Coinphrase"]:not(.upvoatsGiven),
-a[href$="/user/coinphrase"]:not(.upvoatsGiven),
-a[href$="/u/Coinphrase"]:not(.btn),
-a[href$="/u/coinphrase"]:not(.btn) {
+a[href$="/u/Coinphrase"]:not(.upvoatsGiven),
+a[href$="/u/coinphrase"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
-a[href$="/user/Coinphrase"]:not(.upvoatsGiven)::before,
-a[href$="/user/coinphrase"]:not(.upvoatsGiven)::before {
+a[href$="/u/Coinphrase"]:not(.upvoatsGiven)::before,
+a[href$="/u/coinphrase"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: " The Neuralizer ";
 word-spacing: normal;
@@ -1461,10 +1263,8 @@ color: #3399CC;
 border-style: hidden;
 }
 
-a[href$="/user/Coinphrase"]:not(.upvoatsGiven)::after,
-a[href$="/user/coinphrase"]:not(.upvoatsGiven)::after,
-a[href$="/u/Coinphrase"]:after,
-a[href$="/u/coinphrase"]:after {
+a[href$="/u/Coinphrase"]:not(.upvoatsGiven)::after,
+a[href$="/u/coinphrase"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1478,71 +1278,59 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Skymod"]:not(.upvoatsGiven),
-a[href$="/user/skymod"]:not(.upvoatsGiven),
-a[href$="/u/Skymod"]:not(.btn),
-a[href$="/u/skymod"]:not(.btn) {
-      visibility: hidden;
-      word-spacing: -999px;
-      letter-spacing: -999px;
-}
-
-a[href$="/user/Skymod"]:not(.upvoatsGiven)::after,
-a[href$="/user/skymod"]:not(.upvoatsGiven)::after,
-a[href$="/u/Skymod"]:after,
-a[href$="/u/skymod"]:after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(https://i.imgur.com/kqrqucr.jpg?1);
-    background-size: 100%;
-    border-radius: 5px ;
-    width: 68px;
-    height: 46px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
-}
-
-a[href$="/user/The1ronSheik"]:not(.upvoatsGiven),
-a[href$="/user/the1ronsheik"]:not(.upvoatsGiven),
-a[href$="/u/The1ronSheik"]:not(.btn),
-a[href$="/u/the1ronsheik"]:not(.btn) {
-      visibility: hidden;
-      word-spacing: -999px;
-      letter-spacing: -999px;
-}
-
-a[href$="/user/The1ronSheik"]:not(.upvoatsGiven)::after,
-a[href$="/user/the1ronsheik"]:not(.upvoatsGiven)::after,
-a[href$="/u/The1ronSheik"]:after,
-a[href$="/u/the1ronsheik"]:after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(https://i.imgur.com/ZieKpCL.png);
-    background-size: 100%;
-    border-radius: 5px ;
-    width: 70px;
-    height: 105px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
-}
-
-a[href$="/user/Schlomodude"]:not(.upvoatsGiven),
-a[href$="/user/schlomodude"]:not(.upvoatsGiven),
-a[href$="/u/Schlomodude"]:not(.btn),
-a[href$="/u/schlomodude"]:not(.btn) {
+a[href$="/u/Skymod"]:not(.upvoatsGiven),
+a[href$="/u/skymod"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Schlomodude"]:not(.upvoatsGiven)::after,
-a[href$="/user/schlomodude"]:not(.upvoatsGiven)::after,
-a[href$="/u/Schlomodude"]:after,
-a[href$="/u/schlomodude"]:after {
+a[href$="/u/Skymod"]:not(.upvoatsGiven)::after,
+a[href$="/u/skymod"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/kqrqucr.jpg?1);
+background-size: 100%;
+border-radius: 5px ;
+width: 68px;
+height: 46px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/The1ronSheik"]:not(.upvoatsGiven),
+a[href$="/u/the1ronsheik"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/The1ronSheik"]:not(.upvoatsGiven)::after,
+a[href$="/u/the1ronsheik"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/ZieKpCL.png);
+background-size: 100%;
+border-radius: 5px ;
+width: 70px;
+height: 105px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/Schlomodude"]:not(.upvoatsGiven),
+a[href$="/u/schlomodude"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/Schlomodude"]:not(.upvoatsGiven)::after,
+a[href$="/u/schlomodude"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1556,20 +1344,16 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Mick"]:not(.upvoatsGiven),
-a[href$="/user/mick"]:not(.upvoatsGiven),
-a[href$="/u/Mick"]:not(.btn),
-a[href$="/u/mick"]:not(.btn) {
+a[href$="/u/Mick"]:not(.upvoatsGiven),
+a[href$="/u/mick"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
 
-a[href$="/user/Mick"]:not(.upvoatsGiven)::after,
-a[href$="/user/mick"]:not(.upvoatsGiven)::after,
-a[href$="/u/Mick"]:after,
-a[href$="/u/mick"]:after {
+a[href$="/u/Mick"]:not(.upvoatsGiven)::after,
+a[href$="/u/mick"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1582,101 +1366,83 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
-a[href$="/user/Moshi"]:not(.upvoatsGiven),
-a[href$="/user/moshi"]:not(.upvoatsGiven),
-a[href$="/u/Moshi"]:not(.btn),
-a[href$="/u/moshi"]:not(.btn) {
-      visibility: hidden;
-      word-spacing: -999px;
-      letter-spacing: -999px;
-}
-
-a[href$="/user/Moshi"]:not(.upvoatsGiven)::after,
-a[href$="/user/moshi"]:not(.upvoatsGiven)::after,
-a[href$="/u/Moshi"]:after,
-a[href$="/u/moshi"]:after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(https://i.imgur.com/XGtjqlf.png);
-    background-size: 100%;
-    border-radius: 5px ;
-    width: 47px;
-    height: 70px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
-}
-
-a[href$="/user/DynamiteVacancy"]:not(.upvoatsGiven),
-a[href$="/user/dynamiteVacancy"]:not(.upvoatsGiven),
-a[href$="/user/dynamitevacancy"]:not(.upvoatsGiven),
-a[href$="/u/DynamiteVacancy"]:not(.btn),
-a[href$="/u/dynamiteVacancy"]:not(.btn),
-a[href$="/u/dynamitevacancy"]:not(.btn) {
-      visibility: hidden;
-      word-spacing: -999px;
-      letter-spacing: -999px;
-}
-
-a[href$="/user/DynamiteVacancy"]:not(.upvoatsGiven)::after,
-a[href$="/user/dynamiteVacancy"]:not(.upvoatsGiven)::after,
-a[href$="/user/dynamitedacancy"]:not(.upvoatsGiven)::after,
-a[href$="/u/DynamiteVacancy"]:after,
-a[href$="/u/dynamitevacancy"]:after,
-a[href$="/u/dynamitevacancy"]:after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(https://imgoat.com/uploads/f14e45fcee/6963.gif);
-    background-size: 100%;
-    border-radius: 5px ;
-    width: 99px;
-    height: 67px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
-}
-
-a[href$="/user/Lord_Nougat"]:not(.upvoatsGiven),
-a[href$="/user/lord_nougat"]:not(.upvoatsGiven),
-a[href$="/u/Lord_Nougat"]:not(.btn),
-a[href$="/u/lord_nougat"]:not(.btn) {
-      visibility: hidden;
-      word-spacing: -999px;
-      letter-spacing: -999px;
-}
-
-a[href$="/user/Lord_Nougat"]:not(.upvoatsGiven)::after,
-a[href$="/user/lord_nougat"]:not(.upvoatsGiven)::after,
-a[href$="/u/Lord_Nougat"]:after,
-a[href$="/u/lord_nougat"]:after {
-    visibility: visible;
-    content: '';
-    display: inline-block;
-    background-image: url(https://imgoat.com/uploads/f14e45fcee/6965.gif);
-    background-size: 100%;
-    border-radius: 5px ;
-    width: 90px;
-    height: 67px;
-    vertical-align: middle;
-    margin-right: .3em;
-    border: hidden;
-}
-
-a[href$="/user/ToFat2Fish"]:not(.upvoatsGiven),
-a[href$="/user/tofat2fish"]:not(.upvoatsGiven),
-a[href$="/u/ToFat2Fish"]:not(.btn),
-a[href$="/u/tofat2fish"]:not(.btn) {
+a[href$="/u/Moshi"]:not(.upvoatsGiven),
+a[href$="/u/moshi"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/ToFat2Fish"]:not(.upvoatsGiven)::after,
-a[href$="/user/tofat2fish"]:not(.upvoatsGiven)::after,
-a[href$="/u/ToFat2Fish"]:after,
-a[href$="/u/tofat2fish"]:after {
+a[href$="/u/Moshi"]:not(.upvoatsGiven)::after,
+a[href$="/u/moshi"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/XGtjqlf.png);
+background-size: 100%;
+border-radius: 5px ;
+width: 47px;
+height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/DynamiteVacancy"]:not(.upvoatsGiven),
+a[href$="/u/dynamiteVacancy"]:not(.upvoatsGiven),
+a[href$="/u/dynamitevacancy"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/DynamiteVacancy"]:not(.upvoatsGiven)::after,
+a[href$="/u/dynamiteVacancy"]:not(.upvoatsGiven)::after,
+a[href$="/u/dynamitedacancy"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/f14e45fcee/6963.gif);
+background-size: 100%;
+border-radius: 5px ;
+width: 99px;
+height: 67px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/Lord_Nougat"]:not(.upvoatsGiven),
+a[href$="/u/lord_nougat"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/Lord_Nougat"]:not(.upvoatsGiven)::after,
+a[href$="/u/lord_nougat"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/f14e45fcee/6965.gif);
+background-size: 100%;
+border-radius: 5px ;
+width: 90px;
+height: 67px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/ToFat2Fish"]:not(.upvoatsGiven),
+a[href$="/u/tofat2fish"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/ToFat2Fish"]:not(.upvoatsGiven)::after,
+a[href$="/u/tofat2fish"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1690,19 +1456,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/UseTheMath"]:not(.upvoatsGiven),
-a[href$="/user/usethemath"]:not(.upvoatsGiven),
-a[href$="/u/UseTheMath"]:not(.btn),
-a[href$="/u/usethemath"]:not(.btn) {
+a[href$="/u/UseTheMath"]:not(.upvoatsGiven),
+a[href$="/u/usethemath"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/UseTheMath"]:not(.upvoatsGiven)::after,
-a[href$="/user/usethemath"]:not(.upvoatsGiven)::after,
-a[href$="/u/UseTheMath"]:after,
-a[href$="/u/usethemath"]:after {
+a[href$="/u/UseTheMath"]:not(.upvoatsGiven)::after,
+a[href$="/u/usethemath"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1716,19 +1478,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/iBottomOutMidgets"]:not(.upvoatsGiven),
-a[href$="/user/ibottomoutmidgets"]:not(.upvoatsGiven),
-a[href$="/u/iBottomOutMidgets"]:not(.btn),
-a[href$="/u/ibottomoutmidgets"]:not(.btn) {
+a[href$="/u/iBottomOutMidgets"]:not(.upvoatsGiven),
+a[href$="/u/ibottomoutmidgets"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/iBottomOutMidgets"]:not(.upvoatsGiven)::after,
-a[href$="/user/ibottomoutmidgets"]:not(.upvoatsGiven)::after,
-a[href$="/u/iBottomOutMidgets"]:after,
-a[href$="/u/ibottomoutmidgets"]:after {
+a[href$="/u/iBottomOutMidgets"]:not(.upvoatsGiven)::after,
+a[href$="/u/ibottomoutmidgets"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1741,18 +1499,14 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
-a[href$="/user/ExpertShitposter"]:not(.upvoatsGiven),
-a[href$="/user/expertshitposter"]:not(.upvoatsGiven),
-a[href$="/u/ExpertShitposter"]:not(.btn),
-a[href$="/u/expertshitposter"]:not(.btn) {
+a[href$="/u/ExpertShitposter"]:not(.upvoatsGiven),
+a[href$="/u/expertshitposter"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
-a[href$="/user/ExpertShitposter"]:not(.upvoatsGiven)::after,
-a[href$="/user/expertshitposter"]:not(.upvoatsGiven)::after,
-a[href$="/u/ExpertShitposter"]:after,
-a[href$="/u/expertshitposter"]:after {
+a[href$="/u/ExpertShitposter"]:not(.upvoatsGiven)::after,
+a[href$="/u/expertshitposter"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1768,18 +1522,14 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-a[href$="/user/HenryCorp"]:not(.upvoatsGiven),
-a[href$="/user/henrycorp"]:not(.upvoatsGiven),
-a[href$="/u/HenryCorp"]:not(.btn),
-a[href$="/u/henrycorp"]:not(.btn) {
+a[href$="/u/HenryCorp"]:not(.upvoatsGiven),
+a[href$="/u/henrycorp"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
-a[href$="/user/HenryCorp"]:not(.upvoatsGiven)::after,
-a[href$="/user/henrycorp"]:not(.upvoatsGiven)::after,
-a[href$="/u/HenryCorp"]:after,
-a[href$="/u/henrycorp"]:after {
+a[href$="/u/HenryCorp"]:not(.upvoatsGiven)::after,
+a[href$="/u/henrycorp"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1796,19 +1546,15 @@ background-size: cover;
 background-position: -47px 0px;
 }
 
-a[href$="/user/Engrish_Is_Hard"]:not(.upvoatsGiven),
-a[href$="/user/engrish_is_hard"]:not(.upvoatsGiven),
-a[href$="/u/Engrish_Is_Hard"]:not(.btn),
-a[href$="/u/engrish_is_hard"]:not(.btn) {
+a[href$="/u/Engrish_Is_Hard"]:not(.upvoatsGiven),
+a[href$="/u/engrish_is_hard"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Engrish_Is_Hard"]:not(.upvoatsGiven)::after,
-a[href$="/user/engrish_is_hard"]:not(.upvoatsGiven)::after,
-a[href$="/u/Engrish_Is_Hard"]:after,
-a[href$="/u/engrish_is_hard"]:after {
+a[href$="/u/Engrish_Is_Hard"]:not(.upvoatsGiven)::after,
+a[href$="/u/engrish_is_hard"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1822,19 +1568,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/RumpRangerRick"]:not(.upvoatsGiven),
-a[href$="/user/rumprangerrick"]:not(.upvoatsGiven),
-a[href$="/u/RumpRangerRick"]:not(.btn),
-a[href$="/u/rumprangerrick"]:not(.btn) {
+a[href$="/u/RumpRangerRick"]:not(.upvoatsGiven),
+a[href$="/u/rumprangerrick"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/RumpRangerRick"]:not(.upvoatsGiven)::after,
-a[href$="/user/rumprangerrick"]:not(.upvoatsGiven)::after,
-a[href$="/u/RumpRangerRick"]:after,
-a[href$="/u/rumprangerrick"]:after {
+a[href$="/u/RumpRangerRick"]:not(.upvoatsGiven)::after,
+a[href$="/u/rumprangerrick"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1848,19 +1590,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/BigFatDaddy"]:not(.upvoatsGiven),
-a[href$="/user/bigfatdaddy"]:not(.upvoatsGiven),
-a[href$="/u/BigFatDaddy"]:not(.btn),
-a[href$="/u/bigfatdaddy"]:not(.btn) {
+a[href$="/u/BigFatDaddy"]:not(.upvoatsGiven),
+a[href$="/u/bigfatdaddy"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/BigFatDaddy"]:not(.upvoatsGiven)::after,
-a[href$="/user/bigfatdaddy"]:not(.upvoatsGiven)::after,
-a[href$="/u/BigFatDaddy"]:after,
-a[href$="/u/bigfatdaddy"]:after {
+a[href$="/u/BigFatDaddy"]:not(.upvoatsGiven)::after,
+a[href$="/u/bigfatdaddy"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1874,19 +1612,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/VoutGuy"]:not(.upvoatsGiven),
-a[href$="/user/voutguy"]:not(.upvoatsGiven),
-a[href$="/u/VoutGuy"]:not(.btn),
-a[href$="/u/voutguy"]:not(.btn) {
+a[href$="/u/VoutGuy"]:not(.upvoatsGiven),
+a[href$="/u/voutguy"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/VoutGuy"]:not(.upvoatsGiven)::after,
-a[href$="/user/voutguy"]:not(.upvoatsGiven)::after,
-a[href$="/u/VoutGuy"]:after,
-a[href$="/u/voutguy"]:after {
+a[href$="/u/VoutGuy"]:not(.upvoatsGiven)::after,
+a[href$="/u/voutguy"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1900,19 +1634,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Dashippy"]:not(.upvoatsGiven),
-a[href$="/user/dashippy"]:not(.upvoatsGiven),
-a[href$="/u/Dashippy"]:not(.btn),
-a[href$="/u/dashippy"]:not(.btn) {
+a[href$="/u/Dashippy"]:not(.upvoatsGiven),
+a[href$="/u/dashippy"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Dashippy"]:not(.upvoatsGiven)::after,
-a[href$="/user/dashippy"]:not(.upvoatsGiven)::after,
-a[href$="/u/Dashippy"]:after,
-a[href$="/u/dashippy"]:after {
+a[href$="/u/Dashippy"]:not(.upvoatsGiven)::after,
+a[href$="/u/dashippy"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1926,19 +1656,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Aged"]:not(.upvoatsGiven),
-a[href$="/user/aged"]:not(.upvoatsGiven),
-a[href$="/u/Aged"]:not(.btn),
-a[href$="/u/aged"]:not(.btn) {
+a[href$="/u/Aged"]:not(.upvoatsGiven),
+a[href$="/u/aged"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Aged"]:not(.upvoatsGiven)::after,
-a[href$="/user/aged"]:not(.upvoatsGiven)::after,
-a[href$="/u/Aged"]:after,
-a[href$="/u/aged"]:after {
+a[href$="/u/Aged"]:not(.upvoatsGiven)::after,
+a[href$="/u/aged"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1952,19 +1678,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/SelfReferenceParadox"]:not(.upvoatsGiven),
-a[href$="/user/selfreferenceparadox"]:not(.upvoatsGiven),
-a[href$="/u/SelfReferenceParadox"]:not(.btn),
-a[href$="/u/selfreferenceparadox"]:not(.btn) {
+a[href$="/u/SelfReferenceParadox"]:not(.upvoatsGiven),
+a[href$="/u/selfreferenceparadox"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/SelfReferenceParadox"]:not(.upvoatsGiven)::after,
-a[href$="/user/selfreferenceparadox"]:not(.upvoatsGiven)::after,
-a[href$="/u/SelfReferenceParadox"]:after,
-a[href$="/u/selfreferenceparadox"]:after {
+a[href$="/u/SelfReferenceParadox"]:not(.upvoatsGiven)::after,
+a[href$="/u/selfreferenceparadox"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -1978,19 +1700,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Clamhurt_Legbeard"]:not(.upvoatsGiven),
-a[href$="/user/clamhurt_legbeard"]:not(.upvoatsGiven),
-a[href$="/u/Clamhurt_Legbeard"]:not(.btn),
-a[href$="/u/clamhurt_legbeard"]:not(.btn) {
+a[href$="/u/Clamhurt_Legbeard"]:not(.upvoatsGiven),
+a[href$="/u/clamhurt_legbeard"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Clamhurt_Legbeard"]:not(.upvoatsGiven)::after,
-a[href$="/user/clamhurt_legbeard"]:not(.upvoatsGiven)::after,
-a[href$="/u/Clamhurt_Legbeard"]:after,
-a[href$="/u/clamhurt_legbeard"]:after {
+a[href$="/u/Clamhurt_Legbeard"]:not(.upvoatsGiven)::after,
+a[href$="/u/clamhurt_legbeard"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2004,19 +1722,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Oftotc"]:not(.upvoatsGiven),
-a[href$="/user/oftotc"]:not(.upvoatsGiven),
-a[href$="/u/Oftotc"]:not(.btn),
-a[href$="/u/oftotc"]:not(.btn) {
+a[href$="/u/Oftotc"]:not(.upvoatsGiven),
+a[href$="/u/oftotc"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Oftotc"]:not(.upvoatsGiven)::after,
-a[href$="/user/oftotc"]:not(.upvoatsGiven)::after,
-a[href$="/u/Oftotc"]:after,
-a[href$="/u/oftotc"]:after {
+a[href$="/u/Oftotc"]:not(.upvoatsGiven)::after,
+a[href$="/u/oftotc"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2030,19 +1744,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Vladimir_Komarov"]:not(.upvoatsGiven),
-a[href$="/user/vladimir_komarov"]:not(.upvoatsGiven),
-a[href$="/u/Vladimir_Komarov"]:not(.btn),
-a[href$="/u/vladimir_komarov"]:not(.btn) {
+a[href$="/u/Vladimir_Komarov"]:not(.upvoatsGiven),
+a[href$="/u/vladimir_komarov"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Vladimir_Komarov"]:not(.upvoatsGiven)::after,
-a[href$="/user/vladimir_komarov"]:not(.upvoatsGiven)::after,
-a[href$="/u/Vladimir_Komarov"]:after,
-a[href$="/u/vladimir_komarov"]:after {
+a[href$="/u/Vladimir_Komarov"]:not(.upvoatsGiven)::after,
+a[href$="/u/vladimir_komarov"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2056,19 +1766,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Techman"]:not(.upvoatsGiven),
-a[href$="/user/techman"]:not(.upvoatsGiven),
-a[href$="/u/Techman"]:not(.btn),
-a[href$="/u/techman"]:not(.btn) {
+a[href$="/u/Techman"]:not(.upvoatsGiven),
+a[href$="/u/techman"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Techman"]:not(.upvoatsGiven)::after,
-a[href$="/user/techman"]:not(.upvoatsGiven)::after,
-a[href$="/u/Techman"]:after,
-a[href$="/u/techman"]:after {
+a[href$="/u/Techman"]:not(.upvoatsGiven)::after,
+a[href$="/u/techman"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2082,19 +1788,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Shwanky"]:not(.upvoatsGiven),
-a[href$="/user/shwanky"]:not(.upvoatsGiven),
-a[href$="/u/Shwanky"]:not(.btn),
-a[href$="/u/shwanky"]:not(.btn) {
+a[href$="/u/Shwanky"]:not(.upvoatsGiven),
+a[href$="/u/shwanky"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Shwanky"]:not(.upvoatsGiven)::after,
-a[href$="/user/shwanky"]:not(.upvoatsGiven)::after,
-a[href$="/u/Shwanky"]:after,
-a[href$="/u/shwanky"]:after {
+a[href$="/u/Shwanky"]:not(.upvoatsGiven)::after,
+a[href$="/u/shwanky"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2108,19 +1810,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/WinkWithMyStinkEye"]:not(.upvoatsGiven),
-a[href$="/user/winkwithmystinkeye"]:not(.upvoatsGiven),
-a[href$="/u/WinkWithMyStinkEye"]:not(.btn),
-a[href$="/u/winkwithmystinkeye"]:not(.btn) {
+a[href$="/u/WinkWithMyStinkEye"]:not(.upvoatsGiven),
+a[href$="/u/winkwithmystinkeye"]:not(.upvoatsGiven)) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/WinkWithMyStinkEye"]:not(.upvoatsGiven)::after,
-a[href$="/user/winkwithmystinkeye"]:not(.upvoatsGiven)::after,
-a[href$="/u/WinkWithMyStinkEye"]:after,
-a[href$="/u/winkwithmystinkeye"]:after {
+a[href$="/u/WinkWithMyStinkEye"]:not(.upvoatsGiven)::after,
+a[href$="/u/winkwithmystinkeye"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2134,19 +1832,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/NSASURVEILLANCEBOT"]:not(.upvoatsGiven),
-a[href$="/user/nsasurveillancebot"]:not(.upvoatsGiven),
-a[href$="/u/NSASURVEILLANCEBOT"]:not(.btn),
-a[href$="/u/nsasurveillancebot"]:not(.btn) {
+a[href$="/u/NSASURVEILLANCEBOT"]:not(.upvoatsGiven),
+a[href$="/u/nsasurveillancebot"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/NSASURVEILLANCEBOT"]:not(.upvoatsGiven)::after,
-a[href$="/user/nsasurveillancebot"]:not(.upvoatsGiven)::after,
-a[href$="/u/NSASURVEILLANCEBOT"]:after,
-a[href$="/u/nsasurveillancebot"]:after {
+a[href$="/u/NSASURVEILLANCEBOT"]:not(.upvoatsGiven)::after,
+a[href$="/u/nsasurveillancebot"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2160,19 +1854,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Kemiri"]:not(.upvoatsGiven),
-a[href$="/user/kemiri"]:not(.upvoatsGiven),
-a[href$="/u/Kemiri"]:not(.btn),
-a[href$="/u/kemiri"]:not(.btn) {
+a[href$="/u/Kemiri"]:not(.upvoatsGiven),
+a[href$="/u/kemiri"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Kemiri"]:not(.upvoatsGiven)::after,
-a[href$="/user/kemiri"]:not(.upvoatsGiven)::after,
-a[href$="/u/Kemiri"]:after,
-a[href$="/u/kemiri"]:after {
+a[href$="/u/Kemiri"]:not(.upvoatsGiven)::after,
+a[href$="/u/kemiri"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2186,19 +1876,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/IslamicStatePatriot"]:not(.upvoatsGiven),
-a[href$="/user/islamicstatepatriot"]:not(.upvoatsGiven),
-a[href$="/u/IslamicStatePatriot"]:not(.btn),
-a[href$="/u/islamicstatepatriot"]:not(.btn) {
+a[href$="/u/IslamicStatePatriot"]:not(.upvoatsGiven),
+a[href$="/u/islamicstatepatriot"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/IslamicStatePatriot"]:not(.upvoatsGiven)::after,
-a[href$="/user/islamicstatepatriot"]:not(.upvoatsGiven)::after,
-a[href$="/u/IslamicStatePatriot"]:after,
-a[href$="/u/islamicstatepatriot"]:after {
+a[href$="/u/IslamicStatePatriot"]:not(.upvoatsGiven)::after,
+a[href$="/u/islamicstatepatriot"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2226,19 +1912,15 @@ color: #3399CC;
 border-style: hidden;
 }
 
-a[href$="/user/Ina_Pickle"]:not(.upvoatsGiven),
-a[href$="/user/ina_pickle"]:not(.upvoatsGiven),
-a[href$="/u/Ina_Pickle"]:not(.btn),
-a[href$="/u/ina_pickle"]:not(.btn) {
+a[href$="/u/Ina_Pickle"]:not(.upvoatsGiven),
+a[href$="/u/ina_pickle"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Ina_Pickle"]:not(.upvoatsGiven)::after,
-a[href$="/user/ina_pickle"]:not(.upvoatsGiven)::after,
-a[href$="/u/Ina_Pickle"]:after,
-a[href$="/u/ina_pickle"]:after {
+a[href$="/u/Ina_Pickle"]:not(.upvoatsGiven)::after,
+a[href$="/u/ina_pickle"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2252,19 +1934,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Cointelpro_Shill"]:not(.upvoatsGiven),
-a[href$="/user/cointelpro_shill"]:not(.upvoatsGiven),
-a[href$="/u/Cointelpro_Shill"]:not(.btn),
-a[href$="/u/cointelpro_shill"]:not(.btn) {
+a[href$="/u/Cointelpro_Shill"]:not(.upvoatsGiven),
+a[href$="/u/cointelpro_shill"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Cointelpro_Shill"]:not(.upvoatsGiven)::after,
-a[href$="/user/cointelpro_shill"]:not(.upvoatsGiven)::after,
-a[href$="/u/Cointelpro_Shill"]:after,
-a[href$="/u/cointelpro_shill"]:after {
+a[href$="/u/Cointelpro_Shill"]:not(.upvoatsGiven)::after,
+a[href$="/u/cointelpro_shill"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2278,23 +1956,17 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/i-am-me"]:not(.upvoatsGiven),
-a[href$="/user/I-am-me"]:not(.upvoatsGiven),
-a[href$="/user/I-Am-Me"]:not(.upvoatsGiven),
-a[href$="/u/i-am-me"]:not(.btn),
-a[href$="/u/I-am-me"]:not(.btn),
-a[href$="/u/I-Am-Me"]:not(.btn) {
+a[href$="/u/i-am-me"]:not(.upvoatsGiven),
+a[href$="/u/I-am-me"]:not(.upvoatsGiven),
+a[href$="/u/I-Am-Me"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/i-am-me"]:not(.upvoatsGiven)::after,
-a[href$="/user/I-am-me"]:not(.upvoatsGiven)::after,
-a[href$="/user/I-Am-Me"]:not(.upvoatsGiven)::after,
-a[href$="/u/i-am-me"]:after,
-a[href$="/u/I-am-me"]:after,
-a[href$="/u/I-Am-Me"]:after {
+a[href$="/u/i-am-me"]:not(.upvoatsGiven)::after,
+a[href$="/u/I-am-me"]:not(.upvoatsGiven)::after,
+a[href$="/u/I-Am-Me"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2308,19 +1980,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Weredawg"]:not(.upvoatsGiven),
-a[href$="/user/weredawg"]:not(.upvoatsGiven),
-a[href$="/u/Weredawg"]:not(.btn),
-a[href$="/u/weredawg"]:not(.btn) {
+a[href$="/u/Weredawg"]:not(.upvoatsGiven),
+a[href$="/u/weredawg"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Weredawg"]:not(upvoatsGiven)::after,
-a[href$="/user/weredawg"]:not(upvoatsGiven)::after,
-a[href$="/u/Weredawg"]:after,
-a[href$="/u/weredawg"]:after {
+a[href$="/u/Weredawg"]:not(upvoatsGiven)::after,
+a[href$="/u/weredawg"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2334,19 +2002,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Anson"]:not(.upvoatsGiven),
-a[href$="/user/anson"]:not(.upvoatsGiven),
-a[href$="/u/Anson"]:not(.btn),
-a[href$="/u/anson"]:not(.btn) {
+a[href$="/u/Anson"]:not(.upvoatsGiven),
+a[href$="/u/anson"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Anson"]:not(upvoatsGiven)::after,
-a[href$="/user/anson"]:not(upvoatsGiven)::after,
-a[href$="/u/Anson"]:after,
-a[href$="/u/anson"]:after {
+a[href$="/u/Anson"]:not(upvoatsGiven)::after,
+a[href$="/u/anson"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2360,19 +2024,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/SlackJawedFaggots"]:not(.upvoatsGiven),
-a[href$="/user/slackjawedfaggots"]:not(.upvoatsGiven),
-a[href$="/u/SlackJawedFaggots"]:not(.btn),
-a[href$="/u/slackjawedfaggots"]:not(.btn) {
+a[href$="/u/SlackJawedFaggots"]:not(.upvoatsGiven),
+a[href$="/u/slackjawedfaggots"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/SlackJawedFaggots"]:not(upvoatsGiven)::after,
-a[href$="/user/slackjawedfaggots"]:not(upvoatsGiven)::after,
-a[href$="/u/SlackJawedFaggots"]:after,
-a[href$="/u/slackjawedfaggots"]:after {
+a[href$="/u/SlackJawedFaggots"]:not(upvoatsGiven)::after,
+a[href$="/u/slackjawedfaggots"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2386,19 +2046,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/HeyGeorge"]:not(.upvoatsGiven),
-a[href$="/user/heygeorge"]:not(.upvoatsGiven),
-a[href$="/u/HeyGeorge"]:not(.btn),
-a[href$="/u/heygeorge"]:not(.btn) {
+a[href$="/u/HeyGeorge"]:not(.upvoatsGiven),
+a[href$="/u/heygeorge"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/HeyGeorge"]:not(upvoatsGiven)::after,
-a[href$="/user/heygeorge"]:not(upvoatsGiven)::after,
-a[href$="/u/HeyGeorge"]:after,
-a[href$="/u/heygeorge"]:after {
+a[href$="/u/HeyGeorge"]:not(upvoatsGiven)::after,
+a[href$="/u/heygeorge"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2412,18 +2068,14 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Polsaker"]:not(.upvoatsGiven),
-a[href$="/user/polsaker"]:not(.upvoatsGiven),
-a[href$="/u/Polsaker"]:not(.btn),
-a[href$="/u/polsaker"]:not(.btn) {
+a[href$="/u/Polsaker"]:not(.upvoatsGiven),
+a[href$="/u/polsaker"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
-a[href$="/user/Polsaker"]:not(.upvoatsGiven)::after,
-a[href$="/user/polsaker"]:not(.upvoatsGiven)::after,
-a[href$="/u/Polsaker"]:after,
-a[href$="/u/polsaker"]:after {
+a[href$="/u/Polsaker"]:not(.upvoatsGiven)::after,
+a[href$="/u/polsaker"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2437,18 +2089,14 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Phoxy"]:not(.upvoatsGiven),
-a[href$="/user/phoxy"]:not(.upvoatsGiven),
-a[href$="/u/Phoxy"]:not(.btn),
-a[href$="/u/phoxy"]:not(.btn) {
+a[href$="/u/Phoxy"]:not(.upvoatsGiven),
+a[href$="/u/phoxy"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
-a[href$="/user/Phoxy"]:not(.upvoatsGiven)::after,
-a[href$="/user/phoxy"]:not(.upvoatsGiven)::after,
-a[href$="/u/Phoxy"]:after,
-a[href$="/u/phoxy"]:after {
+a[href$="/u/Phoxy"]:not(.upvoatsGiven)::after,
+a[href$="/u/phoxy"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2462,23 +2110,17 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/E-werd"]:not(.upvoatsGiven),
-a[href$="/user/E-Werd"]:not(.upvoatsGiven),
-a[href$="/user/e-werd"]:not(.upvoatsGiven),
-a[href$="/u/E-werd"]:not(.btn),
-a[href$="/u/E-Werd"]:not(.btn),
-a[href$="/u/e-werd"]:not(.btn) {
+a[href$="/u/E-werd"]:not(.upvoatsGiven),
+a[href$="/u/E-Werd"]:not(.upvoatsGiven),
+a[href$="/u/e-werd"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/E-werd"]:not(upvoatsGiven)::after,
-a[href$="/user/E-Werd"]:not(upvoatsGiven)::after,
-a[href$="/user/e-werd"]:not(upvoatsGiven)::after,
-a[href$="/u/E-werd"]:after,
-a[href$="/u/E-Werd"]:after,
-a[href$="/u/e-werd"]:after {
+a[href$="/u/E-werd"]:not(upvoatsGiven)::after,
+a[href$="/u/E-Werd"]:not(upvoatsGiven)::after,
+a[href$="/u/e-werd"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2492,19 +2134,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/PhunkyPlatypus"]:not(.upvoatsGiven),
-a[href$="/user/phunkyplatypus"]:not(.upvoatsGiven),
-a[href$="/u/PhunkyPlatypus"]:not(.btn),
-a[href$="/u/phunkyplatypus"]:not(.btn) {
+a[href$="/u/PhunkyPlatypus"]:not(.upvoatsGiven),
+a[href$="/u/phunkyplatypus"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/PhunkyPlatypus"]:not(upvoatsGiven)::after,
-a[href$="/user/phunkyplatypus"]:not(upvoatsGiven)::after,
-a[href$="/u/PhunkyPlatypus"]:after,
-a[href$="/u/phunkyplatypus"]:after {
+a[href$="/u/PhunkyPlatypus"]:not(upvoatsGiven)::after,
+a[href$="/u/phunkyplatypus"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2518,19 +2156,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/ForgotMyName"]:not(.upvoatsGiven),
-a[href$="/user/forgotmyname"]:not(.upvoatsGiven),
-a[href$="/u/ForgotMyName"]:not(.btn),
-a[href$="/u/forgotmyname"]:not(.btn) {
+a[href$="/u/ForgotMyName"]:not(.upvoatsGiven),
+a[href$="/u/forgotmyname"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/ForgotMyName"]:not(upvoatsGiven)::after,
-a[href$="/user/forgotmyname"]:not(upvoatsGiven)::after,
-a[href$="/u/ForgotMyName"]:after,
-a[href$="/u/forgotmyname"]:after {
+a[href$="/u/ForgotMyName"]:not(upvoatsGiven)::after,
+a[href$="/u/forgotmyname"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2544,23 +2178,17 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/BoujeeBagels"]:not(.upvoatsGiven),
-a[href$="/user/boujeebagels"]:not(.upvoatsGiven),
-a[href$="/user/Boujeebagels"]:not(.upvoatsGiven),
-a[href$="/u/BoujeeBagels"]:not(.btn),
-a[href$="/u/Boujeebagels"]:not(.btn),
-a[href$="/u/boujeebagels"]:not(.btn) {
+a[href$="/u/BoujeeBagels"]:not(.upvoatsGiven),
+a[href$="/u/boujeebagels"]:not(.upvoatsGiven),
+a[href$="/u/Boujeebagels"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/BoujeeBagels"]:not(upvoatsGiven)::after,
-a[href$="/user/Boujeebagels"]:not(upvoatsGiven)::after,
-a[href$="/user/boujeebagels"]:not(upvoatsGiven)::after,
-a[href$="/u/BoujeeBagels"]:after,
-a[href$="/u/Boujeebagels"]:after,
-a[href$="/u/boujeebagels"]:after {
+a[href$="/u/BoujeeBagels"]:not(upvoatsGiven)::after,
+a[href$="/u/Boujeebagels"]:not(upvoatsGiven)::after,
+a[href$="/u/boujeebagels"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2574,27 +2202,19 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/SJW_Troll"]:not(.upvoatsGiven),
-a[href$="/user/sjw_troll"]:not(.upvoatsGiven),
-a[href$="/user/Sjw_Troll"]:not(.upvoatsGiven),
-a[href$="/user/Sjw_troll"]:not(.upvoatsGiven),
-a[href$="/u/SJW_Troll"]:not(.btn),
-a[href$="/u/sjw_troll"]:not(.btn),
-a[href$="/u/Sjw_Troll"]:not(.btn),
-a[href$="/u/Sjw_troll"]:not(.btn) {
+a[href$="/u/SJW_Troll"]:not(.upvoatsGiven),
+a[href$="/u/sjw_troll"]:not(.upvoatsGiven),
+a[href$="/u/Sjw_Troll"]:not(.upvoatsGiven),
+a[href$="/u/Sjw_troll"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/SJW_Troll"]:not(upvoatsGiven)::after,
-a[href$="/user/sjw_troll"]:not(upvoatsGiven)::after,
-a[href$="/user/Sjw_Troll"]:not(upvoatsGiven)::after,
-a[href$="/user/Sjw_troll"]:not(upvoatsGiven)::after,
-a[href$="/u/SJW_Troll"]:after,
-a[href$="/u/sjw_troll"]:after,
-a[href$="/u/Sjw_Troll"]:after,
-a[href$="/u/Sjw_troll"]:after {
+a[href$="/u/SJW_Troll"]:not(upvoatsGiven)::after,
+a[href$="/u/sjw_troll"]:not(upvoatsGiven)::after,
+a[href$="/u/Sjw_Troll"]:not(upvoatsGiven)::after,
+a[href$="/u/Sjw_troll"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2608,23 +2228,17 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Ilikeskittles"]:not(.upvoatsGiven),
-a[href$="/user/ILikeSkittles"]:not(.upvoatsGiven),
-a[href$="/user/ilikeskittles"]:not(.upvoatsGiven),
-a[href$="/u/Ilikeskittles"]:not(.btn),
-a[href$="/u/ILikeSkittles"]:not(.btn),
-a[href$="/u/ilikeskittles"]:not(.btn) {
+a[href$="/u/Ilikeskittles"]:not(.upvoatsGiven),
+a[href$="/u/ILikeSkittles"]:not(.upvoatsGiven),
+a[href$="/u/ilikeskittles"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Ilikeskittles"]:not(upvoatsGiven)::after,
-a[href$="/user/ILikeSkittles"]:not(upvoatsGiven)::after,
-a[href$="/user/ilikeskittles"]:not(upvoatsGiven)::after,
-a[href$="/u/Ilikeskittles"]:after,
-a[href$="/u/ILikeSkittles"]:after,
-a[href$="/u/ilikeskittles"]:after {
+a[href$="/u/Ilikeskittles"]:not(upvoatsGiven)::after,
+a[href$="/u/ILikeSkittles"]:not(upvoatsGiven)::after,
+a[href$="/u/ilikeskittles"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2638,23 +2252,17 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Nogarbagetrashonly"]:not(.upvoatsGiven),
-a[href$="/user/NoGarbageTrashOnly"]:not(.upvoatsGiven),
-a[href$="/user/nogarbagetrashonly"]:not(.upvoatsGiven),
-a[href$="/u/Nogarbagetrashonly"]:not(.btn),
-a[href$="/u/NoGarbageTrashOnly"]:not(.btn),
-a[href$="/u/nogarbagetrashonly"]:not(.btn) {
+a[href$="/u/Nogarbagetrashonly"]:not(.upvoatsGiven),
+a[href$="/u/NoGarbageTrashOnly"]:not(.upvoatsGiven),
+a[href$="/u/nogarbagetrashonly"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Nogarbagetrashonly"]:not(upvoatsGiven)::after,
-a[href$="/user/NoGarbageTrashOnly"]:not(upvoatsGiven)::after,
-a[href$="/user/nogarbagetrashonly"]:not(upvoatsGiven)::after,
-a[href$="/u/Nogarbagetrashonly"]:after,
-a[href$="/u/NoGarbageTrashOnly"]:after,
-a[href$="/u/nogarbagetrashonly"]:after {
+a[href$="/u/Nogarbagetrashonly"]:not(upvoatsGiven)::after,
+a[href$="/u/NoGarbageTrashOnly"]:not(upvoatsGiven)::after,
+a[href$="/u/nogarbagetrashonly"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2668,53 +2276,45 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Islamiscancer"]:not(.upvoatsGiven),
-a[href$="/user/islamiscancer"]:not(.upvoatsGiven),
-a[href$="/u/Islamiscancer"]:not(.btn),
-a[href$="/u/islamiscancer"]:not(.btn) {
+a[href$="/u/Islamiscancer"]:not(.upvoatsGiven),
+a[href$="/u/islamiscancer"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
  
-a[href$="/user/Islamiscancer"]:not(.upvoatsGiven)::after,
-a[href$="/user/islamiscancer"]:not(.upvoatsGiven)::after,
-a[href$="/u/Islamiscancer"]:after,
-a[href$="/u/islamiscancer"]:after {
+a[href$="/u/Islamiscancer"]:not(.upvoatsGiven)::after,
+a[href$="/u/islamiscancer"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
 background-image: url(https://imgoat.com/uploads/9f0f895fb9/7080.jpg);
 border-radius: 2px;
 background-size: 100%;
-width: 72px;
-height: 100px;
+width: 50px;
+height: 70px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/BUTTHOLE_EMPRESS"]:not(.upvoatsGiven),
-a[href$="/user/butthole_empress"]:not(.upvoatsGiven),
-a[href$="/u/BUTTHOLE_EMPRESS"]:not(.btn),
-a[href$="/u/butthole_empress"]:not(.btn) {
+a[href$="/u/BUTTHOLE_EMPRESS"]:not(.upvoatsGiven),
+a[href$="/u/butthole_empress"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
  
-a[href$="/user/BUTTHOLE_EMPRESS"]:not(.upvoatsGiven)::after,
-a[href$="/user/butthole_empress"]:not(.upvoatsGiven)::after,
-a[href$="/u/BUTTHOLE_EMPRESS"]:after,
-a[href$="/u/butthole_empress"]:after {
+a[href$="/u/BUTTHOLE_EMPRESS"]:not(.upvoatsGiven)::after,
+a[href$="/u/butthole_empress"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://imgoat.com/uploads/9f0f895fb9/7090.jpg);
+background-image: url(https://i.phoxy.win/b2250a37-3566-5c1e-a6ed-050230634021.jpg);
 border-radius: 2px;
 background-size: 100%;
-width: 72px;
-height: 100px;
+width: 70px;
+height: 70px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -2722,19 +2322,15 @@ border: hidden;
 
 
 
-a[href$="/user/Jimbonez_Jonez"]:not(.upvoatsGiven),
-a[href$="/user/jimbonez_jonez"]:not(.upvoatsGiven),
-a[href$="/u/Jimbonez_Jonez"]:not(.btn),
-a[href$="/u/jimbonez_jonez"]:not(.btn) {
+a[href$="/u/Jimbonez_Jonez"]:not(.upvoatsGiven),
+a[href$="/u/jimbonez_jonez"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
  
-a[href$="/user/Jimbonez_Jonez"]:not(.upvoatsGiven)::after,
-a[href$="/user/jimbonez_jonez"]:not(.upvoatsGiven)::after,
-a[href$="/u/Jimbonez_Jonez"]:after,
-a[href$="/u/jimbonez_jonez"]:after {
+a[href$="/u/Jimbonez_Jonez"]:not(.upvoatsGiven)::after,
+a[href$="/u/jimbonez_jonez"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2748,19 +2344,15 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Jokersmild"]:not(.upvoatsGiven),
-a[href$="/user/jokersmild"]:not(.upvoatsGiven),
-a[href$="/u/Jokersmild"]:not(.btn),
-a[href$="/u/jokersmild"]:not(.btn) {
+a[href$="/u/Jokersmild"]:not(.upvoatsGiven),
+a[href$="/u/jokersmild"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/Jokersmild"]:not(upvoatsGiven)::after,
-a[href$="/user/jokersmild"]:not(upvoatsGiven)::after,
-a[href$="/u/Jokersmild"]:after,
-a[href$="/u/jokersmild"]:after {
+a[href$="/u/Jokersmild"]:not(upvoatsGiven)::after,
+a[href$="/u/jokersmild"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2775,19 +2367,15 @@ border: hidden;
 }
 
 
-a[href$="/user/beatlejuiceX3"]:not(.upvoatsGiven),
-a[href$="/user/beatlejuicex3"]:not(.upvoatsGiven),
-a[href$="/u/beatlejuiceX3"]:not(.btn),
-a[href$="/u/beatlejuicex3"]:not(.btn) {
+a[href$="/u/beatlejuiceX3"]:not(.upvoatsGiven),
+a[href$="/u/beatlejuicex3"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
-a[href$="/user/beatlejuiceX3"]:not(upvoatsGiven)::after,
-a[href$="/user/beatlejuicex3"]:not(upvoatsGiven)::after,
-a[href$="/u/beatlejuiceX3"]:after,
-a[href$="/u/beatlejuicex3"]:after {
+a[href$="/u/beatlejuiceX3"]:not(upvoatsGiven)::after,
+a[href$="/u/beatlejuicex3"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2801,20 +2389,16 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/RussianIvantheCrazy"]:not(.upvoatsGiven),
-a[href$="/user/russianivanthecrazy"]:not(.upvoatsGiven),
-a[href$="/u/RussianIvantheCrazy"]:not(.btn),
-a[href$="/u/russianivanthecrazy"]:not(.btn) {
+a[href$="/u/RussianIvantheCrazy"]:not(.upvoatsGiven),
+a[href$="/u/russianivanthecrazy"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
 
-a[href$="/user/RussianIvantheCrazy"]:not(upvoatsGiven)::after,
-a[href$="/user/russianivanthecrazy"]:not(upvoatsGiven)::after,
-a[href$="/u/RussianIvantheCrazy"]:after,
-a[href$="/u/russianivanthecrazy"]:after {
+a[href$="/u/RussianIvantheCrazy"]:not(upvoatsGiven)::after,
+a[href$="/u/russianivanthecrazy"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
@@ -2828,20 +2412,16 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/user/Tactical_Scrotum"]:not(.upvoatsGiven),
-a[href$="/user/tactical_scrotum"]:not(.upvoatsGiven),
-a[href$="/u/Tactical_Scrotum"]:not(.btn),
-a[href$="/u/tactical_scrotum"]:not(.btn) {
+a[href$="/u/Tactical_Scrotum"]:not(.upvoatsGiven),
+a[href$="/u/tactical_scrotum"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
 
-a[href$="/user/Tactical_Scrotum"]:not(upvoatsGiven)::after,
-a[href$="/user/tactical_scrotum"]:not(upvoatsGiven)::after,
-a[href$="/u/Tactical_Scrotum"]:after,
-a[href$="/u/tactical_scrotum"]:after {
+a[href$="/u/Tactical_Scrotum"]:not(upvoatsGiven)::after,
+a[href$="/u/tactical_scrotum"]:not(upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
