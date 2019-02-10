@@ -85,26 +85,40 @@ border: hidden;
 }
 
 a[href$="/user/Mattvision"]:not(.upvoatsGiven),
-a[href$="/user/mattvision"]:not(.upvoatsGiven),
-a[href$="/user/Not_Mattvision"]:not(.upvoatsGiven),
-a[href$="/user/not_mattvision"]:not(.upvoatsGiven),
-a[href$="/user/Not_mattvision"]:not(.upvoatsGiven),
-a[href$="/user/not_Mattvision"]:not(.upvoatsGiven),
-a[href$="/u/Mattvision"]:not(.btn),
-a[href$="/u/mattvision"]:not(.btn) {
+a[href$="/user/mattvision"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
 
 a[href$="/user/Mattvision"]:not(.upvoatsGiven)::after,
-a[href$="/user/mattvision"]:not(.upvoatsGiven)::after,
-a[href$="/user/Not_Mattvision"]:not(.upvoatsGiven)::after,
-a[href$="/user/not_mattvision"]:not(.upvoatsGiven)::after,
-a[href$="/user/Not_mattvision"]:not(.upvoatsGiven)::after,
-a[href$="/user/not_Mattvision"]:not(.upvoatsGiven)::after,
-a[href$="/u/Mattvision"]:after,
-a[href$="/u/mattvision"]:after {
+a[href$="/user/mattvision"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://i.imgur.com/ouffDYq.gif);
+border-radius: 0px;
+background-size: 100%;
+width: 70px;
+height: 68px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/Not_Mattvision"]:not(.upvoatsGiven),
+a[href$="/u/not_Mattvision"]:not(.upvoatsGiven)
+a[href$="/u/Not_mattvision"]:not(.upvoatsGiven)
+a[href$="/u/not_mattvision"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/Not_Mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/u/Not_mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/u/not_Mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/u/not_mattvision"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
