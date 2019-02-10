@@ -20,8 +20,8 @@ display: inline-block;
 background-image: url( Imgur link. Slimgur might get shut down. );
 border-radius: 2px;
 background-size: 100%;
-width: (Width of the image - Less than ~100 and proportional to Height)px;
-height: (Height of the image - Less than ~70 and proportional to Width - You can change these if you keep the aspect ratio of the original image, if not, it will repeat.)px;
+width: (Width of the image)px;
+height: (Height of the image - Try to keep it under 70 and proportional to the width so it doesn't repeat)px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -99,16 +99,20 @@ letter-spacing: -999px;
 
 a[href$="/user/Mattvision"]:not(.upvoatsGiven)::after,
 a[href$="/user/mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/user/Not_Mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/user/not_mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/user/Not_mattvision"]:not(.upvoatsGiven)::after,
+a[href$="/user/not_Mattvision"]:not(.upvoatsGiven)::after,
 a[href$="/u/Mattvision"]:after,
 a[href$="/u/mattvision"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/ouffDYq.gif);
+background-image: url(https://i.phoxy.win/a6d74402-4bb6-51b3-8d50-4851f0ed7878.jpg);
 border-radius: 0px;
 background-size: 100%;
-width: 40px;
-height: 26px;
+width: 70px;
+height: 68px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
