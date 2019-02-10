@@ -48,7 +48,7 @@ a[href$="/u/jobes"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(http://i.imgur.com/w9mTnCU.png);
+background-image: url(https://i.phoxy.win/047e7cc6-c292-5b57-84cc-b63960f957ab.png);
 border-radius: 2px;
 background-size: 100%;
 width: 35px;
@@ -57,10 +57,6 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
-
-
-/* background-image: url(https://i.sli.mg/lmtSL2.png); */
-
 
 a[href$="/user/Mamwad"]:not(.upvoatsGiven),
 a[href$="/user/mamwad"],
@@ -1210,7 +1206,7 @@ a[href$="/u/boukert"]:after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://i.imgur.com/GWusqtp.png);
+background-image: url(https://i.phoxy.win/cd38d737-b41b-5471-ac5b-bfff76a4b577.jpg);
 border-radius: 5px;
 background-size: 100%;
 width: 100px;
