@@ -1,6 +1,8 @@
 /*
 Key:
 
+---Image flairs:
+
 a[href$="/u/CapitalizedUserName"]:not(.upvoatsGiven),
 a[href$="/u/lowercaseusername"]:not(.upvoatsGiven) {
 visibility: hidden;
@@ -18,6 +20,39 @@ border-radius: 2px;
 background-size: 100%;
 width: (Width of the image)px;
 height: (Height of the image - under aim for under 70 and proportional to height. Bigger than 89 causes problems)px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+---Text in front of image flairs:
+
+.author[href$="/CapitalizedUserName"]:not(.upvoatsGiven)::before,
+.author[href$="/lowercaseusername"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: "TEXT GOES HERE";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 15px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
+---Changing images when mouse hovers over flair
+
+a[href$="/u/CapitalizedUserName"]:not(.upvoatsGiven):hover::after,
+a[href$="/u/lowercaseusername"]:not(.upvoatsGiven):hover::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url( image link ) !important;
+background-size: 100%;
+border-radius: 50px ;
+width: (width)px;
+height: (height)px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
@@ -2435,3 +2470,53 @@ margin-right: .3em;
 border: hidden;
 }
 
+a[href$="/u/HateCumbuckets"]:not(.upvoatsGiven),
+a[href$="/u/hatecumbuckets"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/HateCumbuckets"]:not(.upvoatsGiven)::after,
+a[href$="/u/hatecumbuckets"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/84b6fbb107/195564.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 70px;
+height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+.author[href$="/HateCumbuckets"]:not(.upvoatsGiven)::before,
+.author[href$="/hatecumbuckets"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: "Tiger Woods";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 15px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
+}
+
+a[href$="/u/HateCumbuckets"]:not(.upvoatsGiven):hover::after,
+a[href$="/u/hatecumbuckets"]:not(.upvoatsGiven):hover::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/84b6fbb107/195604.jpg) !important;
+background-size: 100%;
+border-radius: 50px ;
+width: 70px;
+height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
