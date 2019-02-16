@@ -2610,3 +2610,27 @@ vertical-align: middle;
 margin-right: .3em;
 border: hidden;
 }
+
+a[href$="/u/KVD"]:not(.upvoatsGiven),
+a[href$="/u/Kvd"]:not(.upvoatsGiven),
+a[href$="/u/kvd"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/KVD"]:not(.upvoatsGiven)::after,
+a[href$="/u/Kvd"]:not(.upvoatsGiven)::after,
+a[href$="/u/kvd"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/e65972dce6/197412.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 58px;
+height: 89px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
