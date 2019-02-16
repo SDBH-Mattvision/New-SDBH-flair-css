@@ -1,7 +1,7 @@
 /*
 Key:
 
----Image flairs:
+---This applies to all flair'd users:
 
 a[href$="/u/CapitalizedUserName"]:not(.upvoatsGiven),
 a[href$="/u/lowercaseusername"]:not(.upvoatsGiven) {
@@ -9,6 +9,8 @@ visibility: hidden;
 word-spacing: -999px;
 letter-spacing: -999px;
 }
+
+---Image flairs:
 
 a[href$="/u/CapitalizedUserName"]:not(.upvoatsGiven)::after,
 a[href$="/u/lowercaseusername"]:not(.upvoatsGiven)::after {
@@ -2514,6 +2516,96 @@ background-image: url(https://imgoat.com/uploads/84b6fbb107/195604.jpg) !importa
 background-size: 100%;
 width: 70px;
 height: 70px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/Native"]:not(.upvoatsGiven),
+a[href$="/u/native"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/Native"]:not(.upvoatsGiven)::after,
+a[href$="/u/native"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/84b6fbb107/195759.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 128px;
+height: 72px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/BrainStemNemesis"]:not(.upvoatsGiven),
+a[href$="/u/brainstemnemesis"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/BrainStemNemesis"]:not(.upvoatsGiven)::after,
+a[href$="/u/brainstemnemesis"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/84b6fbb107/195758.png);
+border-radius: 2px;
+background-size: 100%;
+width: 85px;
+height: 78px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/Cyclops1771"]:not(.upvoatsGiven),
+a[href$="/u/cyclops1771"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/Cyclops1771"]:not(.upvoatsGiven)::after,
+a[href$="/u/cyclops1771"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/84b6fbb107/195757.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 78px;
+height: 78px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}
+
+a[href$="/u/Not-Lesbian-i-Swear"]:not(.upvoatsGiven),
+a[href$="/u/Not-Lesbian-I-Swear"]:not(.upvoatsGiven),
+a[href$="/u/not-lesbian-i-swear"]:not(.upvoatsGiven) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}
+
+a[href$="/u/Not-Lesbian-i-Swear"]:not(.upvoatsGiven)::after,
+a[href$="/u/Not-Lesbian-I-Swear"]:not(.upvoatsGiven)::after,
+a[href$="/u/not-lesbian-i-swear"]:not(.upvoatsGiven)::after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url(https://imgoat.com/uploads/e65972dce6/197411.jpg);
+border-radius: 2px;
+background-size: 100%;
+width: 89px;
+height: 89px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
