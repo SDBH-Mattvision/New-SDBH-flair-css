@@ -131,8 +131,8 @@ border: hidden;
 }
 
 a[href$="/u/Not_Mattvision"]:not(.upvoatsGiven),
-a[href$="/u/not_Mattvision"]:not(.upvoatsGiven)
-a[href$="/u/Not_mattvision"]:not(.upvoatsGiven)
+a[href$="/u/not_Mattvision"]:not(.upvoatsGiven),
+a[href$="/u/Not_mattvision"]:not(.upvoatsGiven),
 a[href$="/u/not_mattvision"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
@@ -156,7 +156,7 @@ margin-right: .3em;
 border: hidden;
 }
 
-a[href$="/u/Singingoncloudnine"]:not(.upvoatsGiven)
+a[href$="/u/Singingoncloudnine"]:not(.upvoatsGiven),
 a[href$="/u/singingoncloudnine"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
