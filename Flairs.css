@@ -1737,6 +1737,7 @@ border: hidden;
 }
 
 a[href$="/u/Clamhurt_Legbeard"]:not(.upvoatsGiven),
+a[href$="/u/Clamhurt_legbeard"]:not(.upvoatsGiven),
 a[href$="/u/clamhurt_legbeard"]:not(.upvoatsGiven) {
 visibility: hidden;
 word-spacing: -999px;
@@ -1744,18 +1745,33 @@ letter-spacing: -999px;
 }
 
 a[href$="/u/Clamhurt_Legbeard"]:not(.upvoatsGiven)::after,
+a[href$="/u/Clamhurt_legbeard"]:not(.upvoatsGiven)::after,
 a[href$="/u/clamhurt_legbeard"]:not(.upvoatsGiven)::after {
 visibility: visible;
 content: '';
 display: inline-block;
-background-image: url(https://imgoat.com/uploads/9f0f895fb9/7085.gif);
+background-image: url(https://imgoat.com/uploads/54d6fae5ee/201010.jpg);
 border-radius: 2px;
 background-size: 100%;
-width: 93px;
-height: 49px;
+width: 112px;
+height: 75px;
 vertical-align: middle;
 margin-right: .3em;
 border: hidden;
+}
+.author[href$="/Clamhurt_Legbeard"]:not(.upvoatsGiven)::before,
+.author[href$="/clamhurt_legbeard"]:not(.upvoatsGiven)::before,
+.author[href$="/Clamhurt_legbeard"]:not(.upvoatsGiven)::before {
+visibility: visible;
+content: "RULE, BRITANNIA!";
+word-spacing: normal;
+letter-spacing: normal;
+position: relative;
+font-family:"Comic Sans MS", cursive, sans-serif;
+font-size: 15px;
+background: transparent;
+color: #3399CC;
+border-style: hidden;
 }
 
 a[href$="/u/Oftotc"]:not(.upvoatsGiven),
@@ -2494,6 +2510,7 @@ border: hidden;
 }
 
 .author[href$="/HateCumbuckets"]:not(.upvoatsGiven)::before,
+.author[href$="/Hatecumbuckets"]:not(.upvoatsGiven)::before,
 .author[href$="/hatecumbuckets"]:not(.upvoatsGiven)::before {
 visibility: visible;
 content: "Tiger Woods";
