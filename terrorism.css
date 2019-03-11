@@ -1,0 +1,7 @@
+.subscribers span.word {
+    font-size: 0px;
+}
+.subscribers span.word:after {
+    font-size: 12px;
+    content: 'shitposters';
+}
