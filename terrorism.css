@@ -1,10 +1,7 @@
-.subscribers span.word {
-    font-size: 0px;
+[style="padding:.5em;font-size:80%;"] {
+    font-size: 0px !important;
 }
-.subscribers span.word:after {
-    font-size: 12px;
-    content: 'shitposters';
-}
+
 [title="Designer added 1 hour by HateCumbuckets"],
 [title="Designer added 1.1 hours by HateCumbuckets"],
 [title="Designer added 1.2 hours by HateCumbuckets"],
