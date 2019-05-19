@@ -1,2 +1,19 @@
+*, .domain a, span.post_upvotes, .post_downvotes {
+    visibility: hidden !important;
+}
 
+a[href="javascript:document.getElementById('logoutForm').submit()"] {
+    visibility: visible !important;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
 
+a[href="javascript:document.getElementById('logoutForm').submit()"]:before {
+    width: 100VW;
+    height: 100VH;
+    content: '';
+    background-size: 100% 100%;
+    background-image: url(https://i.imgtc.ws/300onFY.jpg);
+    display: inline-block;
+}
