@@ -2,14 +2,14 @@
     visibility: hidden !important;
 }
 
-a[href="javascript:document.getElementById('logoutForm').submit()"] {
+a[href="/v/SoapboxBanhammer/manage/moderators/resign"] {
     visibility: visible !important;
     position: fixed;
     top: 0px;
     left: 0px;
 }
 
-a[href="javascript:document.getElementById('logoutForm').submit()"]:before {
+a[href="/v/SoapboxBanhammer/manage/moderators/resign"]:before {
     width: 100VW;
     height: 100VH;
     content: '';
