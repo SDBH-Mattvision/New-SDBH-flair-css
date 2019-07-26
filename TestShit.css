@@ -1,0 +1,614 @@
+body{
+background: #eeeeee;
+font-family: "Trebuchet MS","Liberation Sans",verdana,arial,helvetica,sans-serif;
+color: white;
+}
+.top-bar{
+background-color: #000000;
+}
+
+body {
+	background: #2B301A none repeat scroll 0% 0%;
+	font-family: "Trebuchet MS","Liberation Sans",verdana,arial,helvetica,sans-serif;
+	color: rgb(155, 34, 34);
+}
+
+#container {
+	background: #483F1F none repeat scroll 0% 0%;
+	border: 1px solid #222;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1200px;
+	overflow: hidden;
+	padding: 10px;
+	position: relative;
+}
+
+.submission:nth-child(2n) {
+	background: #62653A none repeat scroll 0% 0%;
+}
+
+#header-container {
+	background: #896308 none repeat scroll 0% 0%;
+	border-bottom: 1px solid #222;
+	border-top: 1px solid #222;
+	bottom: 0px;
+	height: 58px;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.submissionscore {
+	background: #292929 none repeat scroll 0% 0%;
+	border: 1px solid #222;
+	border-radius: 2px;
+	color: #F00;
+	display: inline-block;
+	font-weight: bold;
+	min-width: 40px;
+	padding: 3px;
+	text-align: center;
+}
+
+.submissionscore {
+	background: #3B2F1D none repeat scroll 0% 0%;
+	border: 1px solid #222;
+	border-radius: 2px;
+	color: #F00;
+	display: inline-block;
+	font-weight: bold;
+	min-width: 40px;
+	padding: 3px;
+	text-align: center;
+}
+
+.top-bar {
+	background-color: #344526;
+}
+
+#sr-bar li a, .top-bar li a, #dashboard li a {
+	color: #E38041;
+	transition: color 0.2s ease 0s;
+}
+
+.logged-in {
+	background: #9DB05F none repeat scroll 0% 0%;
+	border: 1px solid #222;
+	border-radius: 3px;
+	margin: 0px 0px -30px;
+	padding: 2px 6px 5px;
+}
+
+.sidecontentbox .content {
+	background: #ADB992 none repeat scroll 0% 0%;
+	border: 1px solid #272727;
+	margin: 0px;
+	padding: 5px;
+}
+
+.titlebox form.toggle, .leavemoderator {
+	background: #43570F none repeat scroll 0% 0%;
+	color: #9B9B9B;
+	font-size: smaller;
+	margin: 0px;
+	padding: 5px;
+}
+
+.form-control {
+	background: #362F18 none repeat scroll 0% 0%;
+	border: 1px solid #222;
+	border-radius: 2px;
+	box-shadow: none;
+	color: #DDD;
+	display: block;
+	font-family: inherit;
+	font-size: 12px;
+	height: 30px;
+	line-height: 100%;
+	padding: 8px 12px;
+	transition: border-color 0.1s ease-in-out 0s;
+	width: 100%;
+}
+
+.link a.title.may-blank {
+	color: #F57045;
+	font-weight: bold;
+}
+
+.link a.title.may-blank:hover {
+	color: #FFA54D;
+	text-decoration: none;
+}
+
+.domain a:hover {
+	color: #6D9B48;
+	text-decoration: none;
+}
+
+.tabmenu li.selected a {
+	background: transparent linear-gradient(to bottom, #6B8407, #2D2D2D) repeat scroll 0% 0%;
+	border-style: solid;
+	border-color: #222;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-width: 1px 1px 2px;
+	color: #DDD;
+}
+
+.tabmenu li.disabled a:hover {
+	background: transparent linear-gradient(to bottom, #684E32, #4D240B) repeat scroll 0% 0%;
+	border-style: solid;
+	border-color: #222;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-width: 1px 1px 2px;
+	color: #DDD;
+}
+
+
+/* banner image */
+
+@keyframes header-anim{
+0%{
+background-position:0 0;
+}
+100%{
+background-position:1800px 0;
+}
+}
+@-webkit-keyframes header-anim{
+0%{
+background-position:0 0;
+}
+100%{
+background-position:1800px 0;
+}
+}
+
+#header {
+background:url( https://i.imgtc.ws/ptY7dy3.png );
+height: 358px;
+animation-name: header-anim;
+animation-duration: 25s;
+animation-timing-function: linear;
+animation-direction: normal;
+animation-iteration-count: infinite;
+}
+
+/* sidebar image */
+
+background-repeat: repeat;
+height: 320px;
+}div.side > div.spacer:nth-of-type(1){padding:175px 0 0 !important;
+background:transparent url("https://i.imgtc.ws/4GZT508.jpg") no-repeat scroll center top;background-size:100%;
+
+.link a.author {
+	color: #D72305;
+	font-weight: normal;
+}
+
+.alert-h1 {
+	border-bottom: 2px solid #222;
+	padding: 2px;
+	margin-bottom: 2px;
+	border-color: #222;
+	color: #ED6732;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+a, a:visited {
+	color: rgb(174, 97, 54);
+	text-decoration: none;
+}
+
+.tagline .post_upvotes {
+	color: #D21E00;
+	font-size: 95%;
+	font-weight: bold;
+	padding: 0px 1px 0px 2px;
+	visibility: visible;
+}
+
+.tagline .post_downvotes {
+	color: #0394FF;
+	font-size: 95%;
+	font-weight: bold;
+	padding: 0px 2px 0px 1px;
+	visibility: visible;
+}
+
+.flair, .linkflairlabel {
+	background: #BD3939 none repeat scroll 0% 0%;
+	border: 1px solid #222;
+	border-radius: 2px;
+	color: #DDD;
+	line-height: 150%;
+	margin-right: 3px;
+	padding: 2px 4px;
+	vertical-align: middle;
+}
+
+.btn-whoaverse:hover {
+	background: transparent linear-gradient(to bottom, #78A561, #52691F) repeat scroll 0% 0%;
+	border-color: #58960B;
+	color: #FFF;
+}
+
+.btn-whoaverse {
+	background: transparent linear-gradient(to bottom, #D28155, #231C02) repeat scroll 0% 0%;
+	border-style: solid;
+	border-color: #6C3F22;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	border-image: none;
+	border-width: 1px 1px 2px;
+	border-radius: 3px;
+	color: #DDD;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px 12px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*a[href$="/user/Clamhurt_Legbeard"]:not(.upvoatsGiven),
+a[href$="/user/clamhurt_legbeard"]:not(.upvoatsGiven),
+a[href$="/u/Clamhurt_Legbeard"]:not(.btn),
+a[href$="/u/clamhurt_legbeard"]:not(.btn) {
+visibility: hidden;
+word-spacing: -999px;
+letter-spacing: -999px;
+}*/
+
+/*a[href$="/user/Clamhurt_Legbeard"]:not(.upvoatsGiven)::after,
+a[href$="/user/clamhurt_legbeard"]:not(.upvoatsGiven)::after,
+a[href$="/u/Clamhurt_Legbeard"]:after,
+a[href$="/u/clamhurt_legbeard"]:after {
+visibility: visible;
+content: '';
+display: inline-block;
+background-image: url( https://imgoat.com/uploads/a09c8844ba/143929.jpg );
+background-size: 100%;
+width: 50px;
+height: 50px;
+vertical-align: middle;
+margin-right: .3em;
+border: hidden;
+}*/
+
+
+
+
+
+
+/* social credit begin computing */
+
+a[href$="/u/clamhurt_legbeard"]:before {
+background: #00cfe6;
+color: white; 
+content: "870"; 
+border-radius: 25px;
+}
+
+
+a[href$="/u/HateCumbuckets"]:before {
+background: #00cfe6;
+color: white; 
+content: "861"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Jobes"]:before, 
+a[href$="/u/jobes"]:before {
+background: #00cc00;
+color: white; 
+content: "626"; 
+border-radius: 25px;
+}
+
+
+a[href$="/u/PuttItOut"]:before {
+background: #00cc7a;
+color: white; 
+content: "780"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Imperatrice_d_Ane"]:before {
+background: #00cc7a;
+color: white; 
+content: "700"; 
+border-radius: 25px;
+}
+
+a[href$="/u/ExpertShitposter"]:before {
+background: #00cc00;
+color: white; 
+content: "655"; 
+border-radius: 25px;
+}
+
+a[href$="/u/KatHarzso"]:before {
+background: #00cc00;
+color: white; 
+content: "650"; 
+border-radius: 25px;
+}
+
+/*40.+ bonus*/
+
+a[href$="/u/NoTrueScotsman"]:before {
+background: #00cc00;
+color: white; 
+content: "681"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Not_Mattvision"]:before {
+background: #00cc00;
+color: white; 
+content: "650"; 
+border-radius: 25px;
+}
+
+a[href$="/u/redditbelowsme"]:before {
+background: #00cc00;
+color: white; 
+content: "615"; 
+border-radius: 25px;
+}
+
+a[href$="/u/cyclops1771"]:before {
+background: #00cc00;
+color: white; 
+content: "616"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Native"]:before, 
+a[href$="/u/Empress"]:before {
+background: #00cc00;
+color: white; 
+content: "606"; 
+border-radius: 25px;
+}
+
+a[href$="/u/SandHog"]:before, 
+a[href$="/u/MrPim"]:before {
+background: #00cc00;
+color: white; 
+content: "600"; 
+border-radius: 25px;
+}
+
+a[href$="/u/TIEMC0"]:before {
+background: #00cc00;
+color: white; 
+content: "630"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Nadeshda"]:before {
+background: #00cc00;
+color: white; 
+content: "605"; 
+border-radius: 25px;
+}
+
+a[href$="/u/ToFat2Fish"]:before {
+background: #009933;
+color: white; 
+content: "593"; 
+border-radius: 25px;
+}
+
+a[href$="/u/ilikeskittles"]:before,
+a[href$="/u/Battlefat"]:before,
+a[href$="/u/heygeorge"]:before {
+background: #009933;
+color: white; 
+content: "590"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Artofchoke"]:before {
+background: #009933;
+color: white; 
+content: "580"; 
+border-radius: 25px;
+}
+
+a[href$="/u/derram"]:before {
+background: #009933;
+color: white; 
+content: "579"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Drunkenst"]:before, 
+a[href$="/u/Ina_Pickle"]:before,
+a[href$="/u/con77"]:before,
+a[href$="/u/AndrewBlazeIt"]:before,
+a[href$="/u/lord_nougat"]:before 
+{
+background: #009933;
+color: white; 
+content: "575"; 
+border-radius: 25px;
+}
+
+a[href$="/u/friendshipistragic"]:before,
+a[href$="/u/6double5321"]:before, 
+a[href$="/u/BrainStemNemesis"]:before, 
+a[href$="/u/QuakingAspen"]:before,
+a[href$="/u/bman0321"]:before,
+a[href$="/u/oftotc"]:before {
+background: #009933;
+color: white; 
+content: "570"; 
+border-radius: 25px;
+}
+
+a[href$="/u/C_Corax"]:before, 
+a[href$="/u/friendshipistragic"]:before, 
+a[href$="/u/Chempergrill"]:before, 
+a[href$="/u/BoraxTheFungarian"]:before, 
+a[href$="/u/MajorBodyOdor"]:before {
+background: #009933;
+color: white; 
+content: "565"; 
+border-radius: 25px;
+}
+
+a[href$="/u/The_Duke_of_Dabs
+"]:before, 
+a[href$="/u/Crensch"]:before, 
+a[href$="/u/dontdoxxmefaggots"]:before, 
+a[href$="/u/Mustard_of_puppets"]:before, 
+a[href$="/u/glassuser"]:before, 
+a[href$="/u/Demonsweat2"]:before, 
+a[href$="/u/Solstiare"]:before,
+a[href$="/u/Diogenes_The_Cynic"]:before, 
+a[href$="/u/Pythagoras345"]:before,
+a[href$="/u/Redcobra"]:before,
+a[href$="/u/Dreegonflight"]:before,
+a[href$="/u/woolgathering"]:before,
+a[href$="/u/Trigglypuff"]:before, 
+a[href$="/u/JamesEarlRayJr"]:before,
+a[href$="/u/ItsBad"]:before {
+background: #009933;
+color: white; 
+content: "560"; 
+border-radius: 25px;
+}
+
+a[href$="/u/heygeorge"]:before, 
+a[href$="/u/WispOtheWill"]:before,
+a[href$="/u/MicroFaggot"]:before, 
+a[href$="/u/dangerous_ai"]:before, 
+a[href$="/u/TrialsAndTribulation"]:before, 
+a[href$="/u/Inaminit"]:before,
+a[href$="/u/Diggernicks"]:before,
+a[href$="/u/TheAntichrist"]:before,
+a[href$="/u/MrGamera"]:before,
+a[href$="/u/Breivik"]:before {
+background: #009933;
+color: white; 
+content: "555"; 
+border-radius: 25px;
+}
+
+a[href$="/u/BitChuteArchive"]:before {
+background: #009933;
+color: white; 
+content: "500"; 
+border-radius: 25px;
+}
+
+a[href$="/u/kevdude"]:before, 
+a[href$="/u/Pubiclouse"]:before, 
+a[href$="/u/Goathole"]:before,
+a[href$="/u/Slugworth"]:before,
+a[href$="/u/srgmpdns"]:before,
+a[href$="/u/InaPickle"]:before,
+a[href$="/u/streamingnow"]:before,
+a[href$="/u/Ex-Redditor"]:before,
+a[href$="/u/anonsupporter"]:before,
+a[href$="/u/sosat_menya_reddit"]:before,
+a[href$="/u/Samsquamch"]:before,
+a[href$="/u/QueeferMadness"]:before,
+a[href$="/u/d0c5"]:before,
+a[href$="/u/Timmy2"]:before,
+a[href$="/u/theoldones"]:before,
+a[href$="/u/PraiseIPU"]:before,
+a[href$="/u/Cracklord"]:before,
+a[href$="/u/plankO"]:before, 
+a[href$="/u/gabara"]:before, 
+a[href$="/u/ItGoesOnAnonAnonAnon"]:before,
+a[href$="/u/WORF_MOTORBOATS_TROI"]:before, 
+a[href$="/u/Le_Squish"]:before, 
+a[href$="/u/Syndicalism"]:before, 
+a[href$="/u/Momerath"]:before, 
+a[href$="/u/BraunF14"]:before, 
+a[href$="/u/Anonymous171717"]:before, 
+a[href$="/u/Hydrocephalus"]:before,
+a[href$="/u/DakotaJane"]:before, 
+a[href$="/u/alphasnail"]:before,
+a[href$="/u/AdiposePride1992"]:before,
+a[href$="/u/SayTan"]:before,
+a[href$="/u/AmaleksHairyAss"]:before, 
+a[href$="/u/YoHomie"]:before {
+background: #009933;
+color: white; 
+content: "550"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Redcobra"]:before, 
+a[href$="/u/TeranNotTerran"]:before, 
+a[href$="/u/WhiteRonin"]:before {
+background: #009933;
+color: white; 
+content: "551"; 
+border-radius: 25px;
+}
+
+a[href$="/u/whitemouse"]:before,
+a[href$="/u/Caveman_in_a_suit"]:before, 
+a[href$="/u/SeanBox"]:before,
+a[href$="/u/i_scream_trucks"]:before, 
+a[href$="/u/turtlesarepureevil"]:before,
+a[href$="/u/carlip"]:before {
+background: #009933;
+color: white; 
+content: "540"; 
+border-radius: 25px;
+}
+
+a[href$="/u/SearchVoatBot"]:before, 
+a[href$="/u/MadWorld"]:before {
+background: #009933;
+color: white; 
+content: "520"; 
+border-radius: 25px;
+}
+
+a[href$="/u/Rotteuxx"]:before {
+background: #cc6600;
+color: white; 
+content: "395"; 
+border-radius: 25px;
+}
+
+a[href$="/u/SyriansFuckCorpses"]:before {
+background: #cc6600;
+color: white; 
+content: "330"; 
+border-radius: 25px;
+}
+
+a[href$="/u/TheBuddha"]:before {
+background: #660033;
+color: white; 
+content: "178"; 
+border-radius: 25px;
+}
